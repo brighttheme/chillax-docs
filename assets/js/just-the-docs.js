@@ -53,7 +53,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', 'http://localhost:4000/chillax-docs/assets/js/search-data.json', true);
+  request.open('GET', '/chillax-docs/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
