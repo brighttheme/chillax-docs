@@ -1533,4 +1533,16 @@ pre.highlight code, figure.highlight code { padding: 0; border: 0; }
 /* By SSH */
 blockquote { background: #f5f6fa; margin: 0 auto; padding: 10px; border-left: 3px solid #8ac5f3; border-radius: 4px; }
 
+/* width */
+#site-nav::-webkit-scrollbar { width: 7px; }
+
+/* Track */
+#site-nav::-webkit-scrollbar-track { background: #f1f1f1; }
+
+/* Handle */
+#site-nav::-webkit-scrollbar-thumb { background: #cacaca; border-radius: 15px; }
+
+/* Handle on hover */
+#site-nav::-webkit-scrollbar-thumb:hover { background: #888; }
+
 /*# sourceMappingURL=just-the-docs-default.css.map */

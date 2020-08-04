@@ -497,77 +497,77 @@
     "url": "/chillax-docs/docs/utilities/responsive-modifiers/",
     "relUrl": "/docs/utilities/responsive-modifiers/"
   },"83": {
-    "doc": "Salim",
-    "title": "Dillinger",
-    "content": "| [![N | Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) | . Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor. | Type some Markdown on the left | See HTML in the right | Magic | . ",
-    "url": "/chillax-docs/salim/#dillinger",
-    "relUrl": "/salim/#dillinger"
-  },"84": {
-    "doc": "Salim",
-    "title": "New Features!",
-    "content": ". | Import a HTML file and watch it magically convert to Markdown | Drag and drop images (requires your Dropbox account be linked) | . You can also: . | Import and save files from GitHub, Dropbox, Google Drive and One Drive | Drag and drop markdown and HTML files into Dillinger | Export documents as Markdown, HTML and PDF | . Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email. As John Gruber writes on the Markdown site . The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. This text you see here is actually written in Markdown! To get a feel for Markdown’s syntax, type some text into the left window and watch the results in the right. Tech . Dillinger uses a number of open source projects to work properly: . | AngularJS - HTML enhanced for web apps! | Ace Editor - awesome web-based text editor | markdown-it - Markdown parser done right. Fast and easy to extend. | Twitter Bootstrap - great UI boilerplate for modern web apps | node.js - evented I/O for the backend | Express - fast node.js network app framework @tjholowaychuk | Gulp - the streaming build system | Breakdance - HTML to Markdown converter | jQuery - duh | . And of course Dillinger itself is open source with a public repository on GitHub. Installation . Dillinger requires Node.js v4+ to run. Install the dependencies and devDependencies and start the server. $ cd dillinger $ npm install -d $ node app . For production environments… . $ npm install --production $ NODE_ENV=production node app . Plugins . Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below. | Plugin | README | . | Dropbox | plugins/dropbox/README.md | . | GitHub | plugins/github/README.md | . | Google Drive | plugins/googledrive/README.md | . | OneDrive | plugins/onedrive/README.md | . | Medium | plugins/medium/README.md | . | Google Analytics | plugins/googleanalytics/README.md | . Development . Want to contribute? Great! . Dillinger uses Gulp + Webpack for fast developing. Make a change in your file and instantaneously see your updates! . Open your favorite Terminal and run these commands. First Tab: . $ node app . Second Tab: . $ gulp watch . (optional) Third: . $ karma test . Building for source . For production release: . $ gulp build --prod . Generating pre-built zip archives for distribution: . $ gulp build dist --prod . Docker . Dillinger is very easy to install and deploy in a Docker container. By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image. cd dillinger docker build -t joemccann/dillinger:${package.json.version} . This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out ${package.json.version} with the actual version of Dillinger. Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile): . docker run -d -p 8000:8080 --restart=\"always\" &lt;youruser&gt;/dillinger:${package.json.version} . Verify the deployment by navigating to your server address in your preferred browser. 127.0.0.1:8000 . Kubernetes + Google Cloud . See KUBERNETES.md . Todos . | Write MORE Tests | Add Night Mode | . ",
-    "url": "/chillax-docs/salim/#new-features",
-    "relUrl": "/salim/#new-features"
-  },"85": {
-    "doc": "Salim",
-    "title": "License",
-    "content": "MIT . Free Software, Hell Yeah! . (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn’t be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax) . ## Shadman . Free Software, Hell Yeah! . ",
-    "url": "/chillax-docs/salim/#license",
-    "relUrl": "/salim/#license"
-  },"86": {
-    "doc": "Salim",
-    "title": "Salim",
-    "content": " ",
-    "url": "/chillax-docs/salim/",
-    "relUrl": "/salim/"
-  },"87": {
     "doc": "Search",
     "title": "Search",
     "content": " ",
     "url": "/chillax-docs/docs/search/",
     "relUrl": "/docs/search/"
-  },"88": {
+  },"84": {
     "doc": "Search",
     "title": "Table of contents",
     "content": ". | Enable search in configuration . | Search granularity | Search previews | Search tokenizer | Display URL in search results | Display search button | . | Hiding pages from search | Generate search index when used as a gem | . Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: . | Page title | Page content | Page URL | . ",
     "url": "/chillax-docs/docs/search/#table-of-contents",
     "relUrl": "/docs/search/#table-of-contents"
-  },"89": {
+  },"85": {
     "doc": "Search",
     "title": "Enable search in configuration",
     "content": "In your site’s _config.yml, enable search: . # Enable or disable the site search # Supports true (default) or false search_enabled: true . Search granularity . Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 . Search previews . A search result can contain previews that show where the search words are found in the specific section. # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 . Search tokenizer . The default is for hyphens to separate tokens in search terms: gem-based is equivalent to gem based, matching either word. To allow search for hyphenated words: . # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ . Display URL in search results . # Display the relative url in search results # Supports true (default) or false search.rel_url: false . Display search button . The search button displays in the bottom right corner of the screen and triggers the search input when clicked. # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true . ",
     "url": "/chillax-docs/docs/search/#enable-search-in-configuration",
     "relUrl": "/docs/search/#enable-search-in-configuration"
-  },"90": {
+  },"86": {
     "doc": "Search",
     "title": "Hiding pages from search",
     "content": "Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: . Example . --- layout: default title: Page not found nav_exclude: true search_exclude: true --- . ",
     "url": "/chillax-docs/docs/search/#hiding-pages-from-search",
     "relUrl": "/docs/search/#hiding-pages-from-search"
-  },"91": {
+  },"87": {
     "doc": "Search",
     "title": "Generate search index when used as a gem",
     "content": "If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this rake command that comes with just-the-docs: . $ bundle exec just-the-docs rake search:init . This command creates the assets/js/zzzz-search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually with this content. ",
     "url": "/chillax-docs/docs/search/#generate-search-index-when-used-as-a-gem",
     "relUrl": "/docs/search/#generate-search-index-when-used-as-a-gem"
-  },"92": {
+  },"88": {
     "doc": "Chillax Slider",
     "title": "Utilities",
     "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
     "url": "/chillax-docs/docs/slider#utilities",
     "relUrl": "/docs/slider#utilities"
-  },"93": {
+  },"89": {
     "doc": "Chillax Slider",
     "title": "Chillax Slider",
     "content": " ",
     "url": "/chillax-docs/docs/slider",
     "relUrl": "/docs/slider"
-  },"94": {
+  },"90": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "/chillax-docs/docs/ui-components/tables/",
     "relUrl": "/docs/ui-components/tables/"
+  },"91": {
+    "doc": "Test Page",
+    "title": "Dillinger",
+    "content": "| [![N | Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) | . Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor. | Type some Markdown on the left | See HTML in the right | Magic | . ",
+    "url": "/chillax-docs/test/#dillinger",
+    "relUrl": "/test/#dillinger"
+  },"92": {
+    "doc": "Test Page",
+    "title": "New Features!",
+    "content": ". | Import a HTML file and watch it magically convert to Markdown | Drag and drop images (requires your Dropbox account be linked) | . You can also: . | Import and save files from GitHub, Dropbox, Google Drive and One Drive | Drag and drop markdown and HTML files into Dillinger | Export documents as Markdown, HTML and PDF | . Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email. As John Gruber writes on the Markdown site . The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. This text you see here is actually written in Markdown! To get a feel for Markdown’s syntax, type some text into the left window and watch the results in the right. Tech . Dillinger uses a number of open source projects to work properly: . | AngularJS - HTML enhanced for web apps! | Ace Editor - awesome web-based text editor | markdown-it - Markdown parser done right. Fast and easy to extend. | Twitter Bootstrap - great UI boilerplate for modern web apps | node.js - evented I/O for the backend | Express - fast node.js network app framework @tjholowaychuk | Gulp - the streaming build system | Breakdance - HTML to Markdown converter | jQuery - duh | . And of course Dillinger itself is open source with a public repository on GitHub. Installation . Dillinger requires Node.js v4+ to run. Install the dependencies and devDependencies and start the server. $ cd dillinger $ npm install -d $ node app . For production environments… . $ npm install --production $ NODE_ENV=production node app . Plugins . Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below. | Plugin | README | . | Dropbox | plugins/dropbox/README.md | . | GitHub | plugins/github/README.md | . | Google Drive | plugins/googledrive/README.md | . | OneDrive | plugins/onedrive/README.md | . | Medium | plugins/medium/README.md | . | Google Analytics | plugins/googleanalytics/README.md | . Development . Want to contribute? Great! . Dillinger uses Gulp + Webpack for fast developing. Make a change in your file and instantaneously see your updates! . Open your favorite Terminal and run these commands. First Tab: . $ node app . Second Tab: . $ gulp watch . (optional) Third: . $ karma test . Building for source . For production release: . $ gulp build --prod . Generating pre-built zip archives for distribution: . $ gulp build dist --prod . Docker . Dillinger is very easy to install and deploy in a Docker container. By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image. cd dillinger docker build -t joemccann/dillinger:${package.json.version} . This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out ${package.json.version} with the actual version of Dillinger. Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile): . docker run -d -p 8000:8080 --restart=\"always\" &lt;youruser&gt;/dillinger:${package.json.version} . Verify the deployment by navigating to your server address in your preferred browser. 127.0.0.1:8000 . Kubernetes + Google Cloud . See KUBERNETES.md . Todos . | Write MORE Tests | Add Night Mode | . ",
+    "url": "/chillax-docs/test/#new-features",
+    "relUrl": "/test/#new-features"
+  },"93": {
+    "doc": "Test Page",
+    "title": "License",
+    "content": "MIT . Free Software, Hell Yeah! . (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn’t be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax) . ## Shadman . Free Software, Hell Yeah! . ",
+    "url": "/chillax-docs/test/#license",
+    "relUrl": "/test/#license"
+  },"94": {
+    "doc": "Test Page",
+    "title": "Test Page",
+    "content": " ",
+    "url": "/chillax-docs/test/",
+    "relUrl": "/test/"
   },"95": {
     "doc": "Theme Options",
     "title": "Utilities",
