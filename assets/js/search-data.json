@@ -565,7 +565,7 @@
   },"94": {
     "doc": "Test Page",
     "title": "Test Page",
-    "content": " ",
+    "content": "# Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark . Preview dark color scheme . ",
     "url": "/chillax-docs/test/",
     "relUrl": "/test/"
   },"95": {
