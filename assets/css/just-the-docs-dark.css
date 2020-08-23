@@ -190,7 +190,7 @@ hr { height: 1px; padding: 0; margin: 2rem 0; background-color: #44434d; border:
 
 .site-nav.nav-open { display: block; }
 
-@media (min-width: 50rem) { .site-nav { display: block; padding-top: 3rem; padding-bottom: 1rem; overflow-y: auto; flex: 1 1 auto; } }
+@media (min-width: 50rem) { .site-nav { display: block; padding-top: 0px; /* $sp-8 */ padding-bottom: 1rem; overflow-y: auto; flex: 1 1 auto; } }
 
 .site-header { display: flex; min-height: 60px; align-items: center; }
 
@@ -1540,7 +1540,9 @@ blockquote { background: #f5f6fa; margin: 0 auto; padding: 10px; border-left: 3p
 #site-nav::-webkit-scrollbar-track { background: #f1f1f1; }
 
 /* Handle */
-#site-nav::-webkit-scrollbar-thumb { background: #cacaca; border-radius: 15px; }
+#site-nav::-webkit-scrollbar-thumb { background: transparent; border-radius: 15px; }
+
+.side-bar:hover #site-nav::-webkit-scrollbar-thumb { background: #cacaca; }
 
 /* Handle on hover */
 #site-nav::-webkit-scrollbar-thumb:hover { background: #888; }
