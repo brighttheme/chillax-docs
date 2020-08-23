@@ -1537,7 +1537,7 @@ blockquote { background: #f5f6fa; margin: 0 auto; padding: 10px; border-left: 3p
 #site-nav::-webkit-scrollbar { width: 7px; }
 
 /* Track */
-#site-nav::-webkit-scrollbar-track { background: #f1f1f1; }
+#site-nav::-webkit-scrollbar-track { /* background: #f1f1f1; */ background: transparent; }
 
 /* Handle */
 #site-nav::-webkit-scrollbar-thumb { background: transparent; border-radius: 15px; }
