@@ -1,847 +1,193 @@
 {"0": {
     "doc": "About",
     "title": "About",
-    "content": "About This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "content": "About This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) You can find the source code for Minima at GitHub: [jekyll][jekyll-organization] / [minima](https://github.com/jekyll/minima) You can find the source code for Jekyll at GitHub: [jekyll][jekyll-organization] / [jekyll](https://github.com/jekyll/jekyll) [jekyll-organization]: https://github.com/jekyll ",
     "url": "/chillax-docs/docs/getting-started/about/",
     "relUrl": "/docs/getting-started/about/"
   },"1": {
     "doc": "Blog",
-    "title": "Blog Archive page",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
-    "url": "/chillax-docs/docs/blog#blog-archive-page",
-    "relUrl": "/docs/blog#blog-archive-page"
-  },"2": {
-    "doc": "Blog",
     "title": "Blog",
-    "content": " ",
+    "content": "# Blog Archive page {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ### Test Youtube video ",
     "url": "/chillax-docs/docs/blog",
     "relUrl": "/docs/blog"
-  },"3": {
+  },"2": {
     "doc": "Buttons",
     "title": "Buttons",
-    "content": " ",
+    "content": "# Buttons {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Basic button styles ### Links that look like buttons [Link button](http://example.com/){: .btn } [Link button](http://example.com/){: .btn .btn-purple } [Link button](http://example.com/){: .btn .btn-blue } [Link button](http://example.com/){: .btn .btn-green } [Link button](http://example.com/){: .btn .btn-outline } ```markdown [Link button](http://example.com/){: .btn } [Link button](http://example.com/){: .btn .btn-purple } [Link button](http://example.com/){: .btn .btn-blue } [Link button](http://example.com/){: .btn .btn-green } [Link button](http://example.com/){: .btn .btn-outline } ``` ### Button element GitHub Flavored Markdown does not support the `button` element, so you'll have to use inline HTML for this: Button element ```html Button element ``` --- ## Using utilities with buttons ### Button size Wrap the button in a container that uses the [font-size utility classes]({{ site.baseurl }}{% link docs/utilities/typography.md %}) to scale buttons: [Big ass button](http://example.com/){: .btn } [Tiny ass button](http://example.com/){: .btn } ```markdown [Link button](http://example.com/){: .btn } [Tiny ass button](http://example.com/){: .btn } ``` ### Spacing between buttons Use the [margin utility classes]({{ site.baseurl }}{% link docs/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block. [Button with space](http://example.com/){: .btn .btn-purple .mr-2 } [Button ](http://example.com/){: .btn .btn-blue .mr-2 } [Button with more space](http://example.com/){: .btn .btn-green .mr-4 } [Button ](http://example.com/){: .btn .btn-blue } ```markdown [Button with space](http://example.com/){: .btn .btn-purple .mr-2 } [Button ](http://example.com/){: .btn .btn-blue } [Button with more space](http://example.com/){: .btn .btn-green .mr-4 } [Button ](http://example.com/){: .btn .btn-blue } ``` ",
     "url": "/chillax-docs/docs/ui-components/buttons/",
     "relUrl": "/docs/ui-components/buttons/"
-  },"4": {
-    "doc": "Buttons",
-    "title": "Table of contents",
-    "content": ". | Basic button styles . | Links that look like buttons | Button element | . | Using utilities with buttons . | Button size | Spacing between buttons | . | . ",
-    "url": "/chillax-docs/docs/ui-components/buttons/#table-of-contents",
-    "relUrl": "/docs/ui-components/buttons/#table-of-contents"
-  },"5": {
-    "doc": "Buttons",
-    "title": "Basic button styles",
-    "content": "Links that look like buttons . Link button . Link button Link button Link button . Link button . [Link button](http://example.com/){: .btn } [Link button](http://example.com/){: .btn .btn-purple } [Link button](http://example.com/){: .btn .btn-blue } [Link button](http://example.com/){: .btn .btn-green } [Link button](http://example.com/){: .btn .btn-outline } . Button element . GitHub Flavored Markdown does not support the button element, so you’ll have to use inline HTML for this: . Button element &lt;button type=\"button\" name=\"button\" class=\"btn\"&gt;Button element&lt;/button&gt; . ",
-    "url": "/chillax-docs/docs/ui-components/buttons/#basic-button-styles",
-    "relUrl": "/docs/ui-components/buttons/#basic-button-styles"
-  },"6": {
-    "doc": "Buttons",
-    "title": "Using utilities with buttons",
-    "content": "Button size . Wrap the button in a container that uses the font-size utility classes to scale buttons: . Big ass button . Tiny ass button . &lt;span class=\"fs-8\"&gt; [Link button](http://example.com/){: .btn } &lt;/span&gt; &lt;span class=\"fs-3\"&gt; [Tiny ass button](http://example.com/){: .btn } &lt;/span&gt; . Spacing between buttons . Use the margin utility classes to add spacing between two buttons in the same block. Button with space Button . Button with more space Button . [Button with space](http://example.com/){: .btn .btn-purple .mr-2 } [Button ](http://example.com/){: .btn .btn-blue } [Button with more space](http://example.com/){: .btn .btn-green .mr-4 } [Button ](http://example.com/){: .btn .btn-blue } . ",
-    "url": "/chillax-docs/docs/ui-components/buttons/#using-utilities-with-buttons",
-    "relUrl": "/docs/ui-components/buttons/#using-utilities-with-buttons"
-  },"7": {
+  },"3": {
     "doc": "Code",
     "title": "Code",
-    "content": " ",
+    "content": "# Code {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Inline code Code can be rendered inline by wrapping it in single back ticks. Lorem ipsum dolor sit amet, `` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ## Heading with `` in it. {: .no_toc } ```markdown Lorem ipsum dolor sit amet, `` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ## Heading with `` in it. ``` --- ## Syntax highlighted code blocks Use Jekyll's built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name: ```js // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } ``` {% highlight markdown %} ```js // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } ``` {% endhighlight %} --- ## Code blocks with rendered examples To demonstrate front end code, sometimes it's useful to show a rendered example of that code. After including the styles from your project that you'll need to show the rendering, you can use a `` with the `code-example` class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the `markdown=\"1\"` attribute to tell Jekyll that the code you are rendering will be in Markdown format... This is about to get meta... [Link button](http://example.com/){: .btn } ```markdown [Link button](http://example.com/){: .btn } ``` {% highlight markdown %} [Link button](http://example.com/){: .btn } ```markdown [Link button](http://example.com/){: .btn } ``` {% endhighlight %} ",
     "url": "/chillax-docs/docs/ui-components/code/",
     "relUrl": "/docs/ui-components/code/"
-  },"8": {
-    "doc": "Code",
-    "title": "Table of contents",
-    "content": ". | Inline code | Syntax highlighted code blocks | Code blocks with rendered examples | . ",
-    "url": "/chillax-docs/docs/ui-components/code/#table-of-contents",
-    "relUrl": "/docs/ui-components/code/#table-of-contents"
-  },"9": {
-    "doc": "Code",
-    "title": "Inline code",
-    "content": "Code can be rendered inline by wrapping it in single back ticks. Lorem ipsum dolor sit amet, &lt;inline code snippet&gt; adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    "url": "/chillax-docs/docs/ui-components/code/#inline-code",
-    "relUrl": "/docs/ui-components/code/#inline-code"
-  },"10": {
-    "doc": "Code",
-    "title": "Heading with &lt;inline code snippet&gt; in it.",
-    "content": "Lorem ipsum dolor sit amet, `&lt;inline code snippet&gt;` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ## Heading with `&lt;inline code snippet&gt;` in it. ",
-    "url": "/chillax-docs/docs/ui-components/code/#heading-with-inline-code-snippet-in-it",
-    "relUrl": "/docs/ui-components/code/#heading-with-inline-code-snippet-in-it"
-  },"11": {
-    "doc": "Code",
-    "title": "Syntax highlighted code blocks",
-    "content": "Use Jekyll’s built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name: . // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . ```js // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } ``` . ",
-    "url": "/chillax-docs/docs/ui-components/code/#syntax-highlighted-code-blocks",
-    "relUrl": "/docs/ui-components/code/#syntax-highlighted-code-blocks"
-  },"12": {
-    "doc": "Code",
-    "title": "Code blocks with rendered examples",
-    "content": "To demonstrate front end code, sometimes it’s useful to show a rendered example of that code. After including the styles from your project that you’ll need to show the rendering, you can use a &lt;div&gt; with the code-example class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the markdown=\"1\" attribute to tell Jekyll that the code you are rendering will be in Markdown format… This is about to get meta… . Link button . [Link button](http://example.com/){: .btn } . &lt;div class=\"code-example\" markdown=\"1\"&gt; [Link button](http://example.com/){: .btn } &lt;/div&gt; ```markdown [Link button](http://example.com/){: .btn } ``` . ",
-    "url": "/chillax-docs/docs/ui-components/code/#code-blocks-with-rendered-examples",
-    "relUrl": "/docs/ui-components/code/#code-blocks-with-rendered-examples"
-  },"13": {
-    "doc": "Color",
-    "title": "Color Utilities",
-    "content": " ",
-    "url": "/chillax-docs/docs/utilities/color/#color-utilities",
-    "relUrl": "/docs/utilities/color/#color-utilities"
-  },"14": {
-    "doc": "Color",
-    "title": "Table of contents",
-    "content": ". | Light Greys | Dark Greys | Purples | Blues | Greens | Yellows | Reds | . All the colors used in Just the Docs have been systematized into a series of variables that have been extended to both font color and background color utility classes. ",
-    "url": "/chillax-docs/docs/utilities/color/#table-of-contents",
-    "relUrl": "/docs/utilities/color/#table-of-contents"
-  },"15": {
-    "doc": "Color",
-    "title": "Light Greys",
-    "content": "| Color value | Font color utility | Background color utility | . | grey-lt-000 | .text-grey-lt-000 | .bg-grey-lt-000 | . | grey-lt-100 | .text-grey-lt-100 | .bg-grey-lt-100 | . | grey-lt-200 | .text-grey-lt-200 | .bg-grey-lt-200 | . | grey-lt-300 | .text-grey-lt-300 | .bg-grey-lt-300 | . ",
-    "url": "/chillax-docs/docs/utilities/color/#light-greys",
-    "relUrl": "/docs/utilities/color/#light-greys"
-  },"16": {
-    "doc": "Color",
-    "title": "Dark Greys",
-    "content": "| Color value | Font color utility | Background color utility | . | grey-dk-000 | .text-grey-dk-000 | .bg-grey-dk-000 | . | grey-dk-100 | .text-grey-dk-100 | .bg-grey-dk-100 | . | grey-dk-200 | .text-grey-dk-200 | .bg-grey-dk-200 | . | grey-dk-250 | .text-grey-dk-250 | .bg-grey-dk-250 | . | grey-dk-300 | .text-grey-dk-300 | .bg-grey-dk-300 | . ",
-    "url": "/chillax-docs/docs/utilities/color/#dark-greys",
-    "relUrl": "/docs/utilities/color/#dark-greys"
-  },"17": {
-    "doc": "Color",
-    "title": "Purples",
-    "content": "| Color value | Font color utility | Background color utility | . | purple-000 | .text-purple-000 | .bg-purple-000 | . | purple-100 | .text-purple-100 | .bg-purple-100 | . | purple-200 | .text-purple-200 | .bg-purple-200 | . | purple-300 | .text-purple-300 | .bg-purple-300 | . ",
-    "url": "/chillax-docs/docs/utilities/color/#purples",
-    "relUrl": "/docs/utilities/color/#purples"
-  },"18": {
-    "doc": "Color",
-    "title": "Blues",
-    "content": "| Color value | Font color utility | Background color utility | . | blue-000 | .text-blue-000 | .bg-blue-000 | . | blue-100 | .text-blue-100 | .bg-blue-100 | . | blue-200 | .text-blue-200 | .bg-blue-200 | . | blue-300 | .text-blue-300 | .bg-blue-300 | . ",
-    "url": "/chillax-docs/docs/utilities/color/#blues",
-    "relUrl": "/docs/utilities/color/#blues"
-  },"19": {
-    "doc": "Color",
-    "title": "Greens",
-    "content": "| Color value | Font color utility | Background color utility | . | green-000 | .text-green-000 | .bg-green-000 | . | green-100 | .text-green-100 | .bg-green-100 | . | green-200 | .text-green-200 | .bg-green-200 | . | green-300 | .text-green-300 | .bg-green-300 | . ",
-    "url": "/chillax-docs/docs/utilities/color/#greens",
-    "relUrl": "/docs/utilities/color/#greens"
-  },"20": {
-    "doc": "Color",
-    "title": "Yellows",
-    "content": "| Color value | Font color utility | Background color utility | . | yellow-000 | .text-yellow-000 | .bg-yellow-000 | . | yellow-100 | .text-yellow-100 | .bg-yellow-100 | . | yellow-200 | .text-yellow-200 | .bg-yellow-200 | . | yellow-300 | .text-yellow-300 | .bg-yellow-300 | . ",
-    "url": "/chillax-docs/docs/utilities/color/#yellows",
-    "relUrl": "/docs/utilities/color/#yellows"
-  },"21": {
-    "doc": "Color",
-    "title": "Reds",
-    "content": "| Color value | Font color utility | Background color utility | . | red-000 | .text-red-000 | .bg-red-000 | . | red-100 | .text-red-100 | .bg-red-100 | . | red-200 | .text-red-200 | .bg-red-200 | . | red-300 | .text-red-300 | .bg-red-300 | . ",
-    "url": "/chillax-docs/docs/utilities/color/#reds",
-    "relUrl": "/docs/utilities/color/#reds"
-  },"22": {
+  },"4": {
     "doc": "Color",
     "title": "Color",
-    "content": " ",
+    "content": "# Color Utilities {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- All the colors used in Just the Docs have been systematized into a series of variables that have been extended to both font color and background color utility classes. ## Light Greys | Color value | Font color utility | Background color utility |:---------------|:---------------------|:-------------------------| `grey-lt-000` | `.text-grey-lt-000` | `.bg-grey-lt-000` | `grey-lt-100` | `.text-grey-lt-100` | `.bg-grey-lt-100` | `grey-lt-200` | `.text-grey-lt-200` | `.bg-grey-lt-200` | `grey-lt-300` | `.text-grey-lt-300` | `.bg-grey-lt-300` | ## Dark Greys | Color value | Font color utility | Background color utility |:---------------|:---------------------|:-------------------------| `grey-dk-000` | `.text-grey-dk-000` | `.bg-grey-dk-000` | `grey-dk-100` | `.text-grey-dk-100` | `.bg-grey-dk-100` | `grey-dk-200` | `.text-grey-dk-200` | `.bg-grey-dk-200` | `grey-dk-250` | `.text-grey-dk-250` | `.bg-grey-dk-250` | `grey-dk-300` | `.text-grey-dk-300` | `.bg-grey-dk-300` | ## Purples | Color value | Font color utility | Background color utility |:---------------|:---------------------|:-------------------------| `purple-000` | `.text-purple-000` | `.bg-purple-000` | `purple-100` | `.text-purple-100` | `.bg-purple-100` | `purple-200` | `.text-purple-200` | `.bg-purple-200` | `purple-300` | `.text-purple-300` | `.bg-purple-300` | ## Blues | Color value | Font color utility | Background color utility |:---------------|:---------------------|:-------------------------| `blue-000` | `.text-blue-000` | `.bg-blue-000` | `blue-100` | `.text-blue-100` | `.bg-blue-100` | `blue-200` | `.text-blue-200` | `.bg-blue-200` | `blue-300` | `.text-blue-300` | `.bg-blue-300` | ## Greens | Color value | Font color utility | Background color utility |:---------------|:---------------------|:-------------------------| `green-000` | `.text-green-000` | `.bg-green-000` | `green-100` | `.text-green-100` | `.bg-green-100` | `green-200` | `.text-green-200` | `.bg-green-200` | `green-300` | `.text-green-300` | `.bg-green-300` | ## Yellows | Color value | Font color utility | Background color utility |:---------------|:---------------------|:-------------------------| `yellow-000` | `.text-yellow-000` | `.bg-yellow-000` | `yellow-100` | `.text-yellow-100` | `.bg-yellow-100` | `yellow-200` | `.text-yellow-200` | `.bg-yellow-200` | `yellow-300` | `.text-yellow-300` | `.bg-yellow-300` | ## Reds | Color value | Font color utility | Background color utility |:---------------|:---------------------|:-------------------------| `red-000` | `.text-red-000` | `.bg-red-000` | `red-100` | `.text-red-100` | `.bg-red-100` | `red-200` | `.text-red-200` | `.bg-red-200` | `red-300` | `.text-red-300` | `.bg-red-300` | ",
     "url": "/chillax-docs/docs/utilities/color/",
     "relUrl": "/docs/utilities/color/"
-  },"23": {
+  },"5": {
     "doc": "Configuration",
     "title": "Configuration",
-    "content": "Just the Docs has some specific configuration parameters that can be defined in your Jekyll site’s _config.yml file. ",
+    "content": "# Configuration {: .no_toc } Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file. {: .fs-6 .fw-300 } ## {: .no_toc .text-delta } 1. TOC {:toc} --- View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example. ## Site logo ```yaml # Set a path/url to a logo that will be displayed instead of the title logo: \"/assets/images/just-the-docs.png\" ``` ## Search ```yaml # Enable or disable the site search # Supports true (default) or false search_enabled: true search: # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 heading_level: 2 # Maximum amount of previews per search result # Default: 3 previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 preview_words_after: 10 # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words tokenizer_separator: /[\\s/]+/ # Display the relative url in search results # Supports true (default) or false rel_url: true # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) button: false ``` ## Aux links ```yaml # Aux links for the upper right navigation aux_links: \"Just the Docs on GitHub\": - \"//github.com/pmarsceill/just-the-docs\" # Makes Aux links open in a new tab. Default is false aux_links_new_tab: false ``` ## Heading anchor links ```yaml # Heading anchor links appear on hover over h1-h6 tags in page content # allowing users to deep link to a particular heading on a page. # # Supports true (default) or false heading_anchors: true ``` ## Footer content ```yaml # Footer content # appears at the bottom of every page's main content footer_content: \"Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an MIT license.\" # Footer last edited timestamp last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter last_edit_time_format: \"%b %e %Y at %I:%M %p\" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html # Footer \"Edit this page on GitHub\" link text gh_edit_link: true # show or hide edit this page link gh_edit_link_text: \"Edit this page on GitHub.\" gh_edit_repository: \"https://github.com/pmarsceill/just-the-docs\" # the github URL for your repo gh_edit_branch: \"master\" # the branch that your docs is served from gh_edit_view_mode: \"tree\" # \"tree\" or \"edit\" if you want the user to jump into the editor immediately ``` - the \"page last modified\" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format - `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime) - `gh_edit_repository` is the URL of the project's GitHub repository - `gh_edit_branch` is the branch that the docs site is served from; defaults to `master` - `gh_edit_view_mode` is `\"tree\"` by default, which brings the user to the github page; switch to `\"edit\"` to bring the user directly into editing mode ## Color scheme ```yaml # Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark ``` Preview dark color scheme See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information. ## Google Analytics ```yaml # Google Analytics Tracking (optional) # e.g, UA-1234567-89 ga_tracking: UA-5555555-55 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default) ``` ",
     "url": "/chillax-docs/docs/getting-started/configuration/",
     "relUrl": "/docs/getting-started/configuration/"
-  },"24": {
-    "doc": "Configuration",
-    "title": "Table of contents",
-    "content": ". | Site logo | Search | Aux links | Heading anchor links | Footer content | Color scheme | Google Analytics | . View this site’s _config.yml file as an example. ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#table-of-contents",
-    "relUrl": "/docs/getting-started/configuration/#table-of-contents"
-  },"25": {
-    "doc": "Configuration",
-    "title": "Site logo",
-    "content": "# Set a path/url to a logo that will be displayed instead of the title logo: \"/assets/images/just-the-docs.png\" . ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#site-logo",
-    "relUrl": "/docs/getting-started/configuration/#site-logo"
-  },"26": {
-    "doc": "Configuration",
-    "title": "Search",
-    "content": "# Enable or disable the site search # Supports true (default) or false search_enabled: true search: # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 heading_level: 2 # Maximum amount of previews per search result # Default: 3 previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 preview_words_after: 10 # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words tokenizer_separator: /[\\s/]+/ # Display the relative url in search results # Supports true (default) or false rel_url: true # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) button: false . ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#search",
-    "relUrl": "/docs/getting-started/configuration/#search"
-  },"27": {
-    "doc": "Configuration",
-    "title": "Aux links",
-    "content": "# Aux links for the upper right navigation aux_links: \"Just the Docs on GitHub\": - \"//github.com/pmarsceill/just-the-docs\" # Makes Aux links open in a new tab. Default is false aux_links_new_tab: false . ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#aux-links",
-    "relUrl": "/docs/getting-started/configuration/#aux-links"
-  },"28": {
-    "doc": "Configuration",
-    "title": "Heading anchor links",
-    "content": "# Heading anchor links appear on hover over h1-h6 tags in page content # allowing users to deep link to a particular heading on a page. # # Supports true (default) or false heading_anchors: true . ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#heading-anchor-links",
-    "relUrl": "/docs/getting-started/configuration/#heading-anchor-links"
-  },"29": {
-    "doc": "Configuration",
-    "title": "Footer content",
-    "content": "# Footer content # appears at the bottom of every page's main content footer_content: \"Copyright &amp;copy; 2017-2019 Patrick Marsceill. Distributed by an &lt;a href=\\\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\\\"&gt;MIT license.&lt;/a&gt;\" # Footer last edited timestamp last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter last_edit_time_format: \"%b %e %Y at %I:%M %p\" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html # Footer \"Edit this page on GitHub\" link text gh_edit_link: true # show or hide edit this page link gh_edit_link_text: \"Edit this page on GitHub.\" gh_edit_repository: \"https://github.com/pmarsceill/just-the-docs\" # the github URL for your repo gh_edit_branch: \"master\" # the branch that your docs is served from gh_edit_view_mode: \"tree\" # \"tree\" or \"edit\" if you want the user to jump into the editor immediately . | the “page last modified” data will only display if a page has a key called last_modified_date, formatted in some readable date format | last_edit_time_format uses Ruby’s DateTime formatter; see examples and more information at this link. | gh_edit_repository is the URL of the project’s GitHub repository | gh_edit_branch is the branch that the docs site is served from; defaults to master | gh_edit_view_mode is \"tree\" by default, which brings the user to the github page; switch to \"edit\" to bring the user directly into editing mode | . ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#footer-content",
-    "relUrl": "/docs/getting-started/configuration/#footer-content"
-  },"30": {
-    "doc": "Configuration",
-    "title": "Color scheme",
-    "content": "# Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark . Preview dark color scheme . See Customization for more information. ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#color-scheme",
-    "relUrl": "/docs/getting-started/configuration/#color-scheme"
-  },"31": {
-    "doc": "Configuration",
-    "title": "Google Analytics",
-    "content": "# Google Analytics Tracking (optional) # e.g, UA-1234567-89 ga_tracking: UA-5555555-55 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default) . ",
-    "url": "/chillax-docs/docs/getting-started/configuration/#google-analytics",
-    "relUrl": "/docs/getting-started/configuration/#google-analytics"
-  },"32": {
+  },"6": {
     "doc": "Customization",
     "title": "Customization",
-    "content": " ",
+    "content": "# Customization {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Color schemes {: .d-inline-block } New {: .label .label-green } Just the Docs supports two color schemes: light (default), and dark. To enable a color scheme, set the `color_scheme` parameter in your site's `_config.yml` file: #### Example {: .no_toc } ```yaml # Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark ``` Preview dark color scheme ## Custom schemes ### Define a custom scheme You can add custom schemes. If you want to add a scheme named `foo` (can be any name) just add a file `_sass/color_schemes/foo.scss` (replace `foo` by your scheme name) where you override theme variables to change colors, fonts, spacing, etc. Available variables are listed in the [_variables.scss](https://github.com/pmarsceill/just-the-docs/tree/master/_sass/support/_variables.scss) file. For example, to change the link color from the purple default to blue, include the following inside your scheme file: #### Example {: .no_toc } ```scss $link-color: $blue-000; ``` _Note:_ Editing the variables directly in `_sass/support/variables.scss` is not recommended and can cause other dependencies to fail. Please use scheme files. ### Use a custom scheme To use the custom color scheme, only set the `color_scheme` parameter in your site's `_config.yml` file: ```yaml color_scheme: foo ``` ### Switchable custom scheme If you want to be able to change the scheme dynamically, for example via javascript, just add a file `assets/css/just-the-docs-foo.scss` (replace `foo` by your scheme name) with the following content:` {% raw %} --- --- {% include css/just-the-docs.scss.liquid color_scheme=\"foo\" %} {% endraw %} This allows you to switch the scheme via the following javascript. ```js jtd.setTheme('foo'); ``` ## Override and completely custom styles For styles that aren't defined as variables, you may want to modify specific CSS classes. Additionally, you may want to add completely custom CSS specific to your content. To do this, put your styles in the file `_sass/custom/custom.scss`. This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied. For example, if you'd like to add your own styles for printing a page, you could add the following styles. #### Example {: .no_toc } ```scss // Print-only styles. @media print { .side-bar, .page-header { display: none; } .main-content { max-width: auto; margin: 1em;} } ``` ",
     "url": "/chillax-docs/docs/customization/",
     "relUrl": "/docs/customization/"
-  },"33": {
-    "doc": "Customization",
-    "title": "Table of contents",
-    "content": ". | Color schemes | Custom schemes . | Define a custom scheme | Use a custom scheme | Switchable custom scheme | . | Override and completely custom styles | . ",
-    "url": "/chillax-docs/docs/customization/#table-of-contents",
-    "relUrl": "/docs/customization/#table-of-contents"
-  },"34": {
-    "doc": "Customization",
-    "title": "Color schemes",
-    "content": "New . Just the Docs supports two color schemes: light (default), and dark. To enable a color scheme, set the color_scheme parameter in your site’s _config.yml file: . Example . # Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark . Preview dark color scheme . ",
-    "url": "/chillax-docs/docs/customization/#color-schemes",
-    "relUrl": "/docs/customization/#color-schemes"
-  },"35": {
-    "doc": "Customization",
-    "title": "Custom schemes",
-    "content": "Define a custom scheme . You can add custom schemes. If you want to add a scheme named foo (can be any name) just add a file _sass/color_schemes/foo.scss (replace foo by your scheme name) where you override theme variables to change colors, fonts, spacing, etc. Available variables are listed in the _variables.scss file. For example, to change the link color from the purple default to blue, include the following inside your scheme file: . Example . $link-color: $blue-000; . Note: Editing the variables directly in _sass/support/variables.scss is not recommended and can cause other dependencies to fail. Please use scheme files. Use a custom scheme . To use the custom color scheme, only set the color_scheme parameter in your site’s _config.yml file: . color_scheme: foo . Switchable custom scheme . If you want to be able to change the scheme dynamically, for example via javascript, just add a file assets/css/just-the-docs-foo.scss (replace foo by your scheme name) with the following content:` . --- --- {% include css/just-the-docs.scss.liquid color_scheme=\"foo\" %} . This allows you to switch the scheme via the following javascript. jtd.setTheme('foo'); . ",
-    "url": "/chillax-docs/docs/customization/#custom-schemes",
-    "relUrl": "/docs/customization/#custom-schemes"
-  },"36": {
-    "doc": "Customization",
-    "title": "Override and completely custom styles",
-    "content": "For styles that aren’t defined as variables, you may want to modify specific CSS classes. Additionally, you may want to add completely custom CSS specific to your content. To do this, put your styles in the file _sass/custom/custom.scss. This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied. For example, if you’d like to add your own styles for printing a page, you could add the following styles. Example . // Print-only styles. @media print { .side-bar, .page-header { display: none; } .main-content { max-width: auto; margin: 1em;} } . ",
-    "url": "/chillax-docs/docs/customization/#override-and-completely-custom-styles",
-    "relUrl": "/docs/customization/#override-and-completely-custom-styles"
-  },"37": {
-    "doc": "Demos",
-    "title": "Frequently Asked Questions",
-    "content": ". | Spell-check doesn’t work; how do I enable it? | Some of my Markdown elements aren’t highlighted | Which elements of Markdown are supported? | Autocompletion doesn’t work | Syntax-highlighting is broken after uninstall | Trailing whitespace is automatically removed, but I don’t want that | Utilities | . ",
-    "url": "/chillax-docs/docs/demos#frequently-asked-questions",
-    "relUrl": "/docs/demos#frequently-asked-questions"
-  },"38": {
-    "doc": "Demos",
-    "title": "Spell-check doesn’t work; how do I enable it?",
-    "content": "The core-package spell-check doesn’t scan documents in the text.md by default. You can easily add this yourself: . | Open the Atom settings, and find the Packages tab | Search for the spell-check package; you can find it under the Core Packages | Open the settings for spell-check | Append text.md to the list of grammars (make sure the scopes are comma-separated) | Reload Atom to make sure the updated settings take effect | . ",
-    "url": "/chillax-docs/docs/demos#spell-check-doesnt-work-how-do-i-enable-it",
-    "relUrl": "/docs/demos#spell-check-doesnt-work-how-do-i-enable-it"
-  },"39": {
-    "doc": "Demos",
-    "title": "Some of my Markdown elements aren’t highlighted",
-    "content": "language-markdown parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There’s a good chance that your syntax-theme doesn’t support all the different elements that language-markdown recognizes. You can ask the author of the theme to add better support for language-markdown, or add styles to your custom stylesheet. You can also try one of the tried and tested syntax-themes featured above. If you can’t get it to work, feel free to open an issue, and I’ll see what I can do. ",
-    "url": "/chillax-docs/docs/demos#some-of-my-markdown-elements-arent-highlighted",
-    "relUrl": "/docs/demos#some-of-my-markdown-elements-arent-highlighted"
-  },"40": {
-    "doc": "Demos",
-    "title": "Which elements of Markdown are supported?",
-    "content": "Because there is no clear Markdown standard, I’ve chosen to follow the CommonMark Spec as closely as possible within the Atom environment. On top of that, I’ve implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please open an issue. Notes on implementation . | Raw html is included when you have the default language-html grammar enabled | The Github Flavored task-lists are implemented as part of ‘normal’ lists | Setext-headers (underlined-headers) are not supported | indented-code-blocks have been disabled to prevent false-positives; use fenced-code-blocks instead (more details) | Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives | . ",
-    "url": "/chillax-docs/docs/demos#which-elements-of-markdown-are-supported",
-    "relUrl": "/docs/demos#which-elements-of-markdown-are-supported"
-  },"41": {
-    "doc": "Demos",
-    "title": "Autocompletion doesn’t work",
-    "content": "Autocompletion doesn’t work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the autocomplete-plus settings, make sure that Markdown files aren’t blacklisted. Additionally, it might help to switch the default provider to Fuzzy. For Atom to index your Markdown documents as symbols, you have to add the following to your config.cson: . '.text.md': autocomplete: symbols: constant: selector: \"*\" typePriority: 1 . You can find additional information in this issue. ",
-    "url": "/chillax-docs/docs/demos#autocompletion-doesnt-work",
-    "relUrl": "/docs/demos#autocompletion-doesnt-work"
-  },"42": {
-    "doc": "Demos",
-    "title": "Syntax-highlighting is broken after uninstall",
-    "content": "The core-package language-gfm is automatically disabled (unless you’ve enabled the setting that prevents this) when using language-markdown to avoid any conflicts. Because language-markdown is intended as a drop-in replacement you most likely won’t need both anyway. However, if you uninstall language-markdown, language-gfm doesn’t automatically get re-activated. There’s no API available to do this, so you’ll have to re-activate language-gfm manually, which is quite easy. | Open the “Settings” and go to the “Packages” tab | Search for language-gfm | Click Enable to re-activate it | You probably want to reload Atom to make sure the change takes effect | . ",
-    "url": "/chillax-docs/docs/demos#syntax-highlighting-is-broken-after-uninstall",
-    "relUrl": "/docs/demos#syntax-highlighting-is-broken-after-uninstall"
-  },"43": {
-    "doc": "Demos",
-    "title": "Trailing whitespace is automatically removed, but I don’t want that",
-    "content": "By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your config.cson for the .md.text scope. For more background, see #115. '*': # all current config '.md.text': whitespace: removeTrailingWhitespace: false . ",
-    "url": "/chillax-docs/docs/demos#trailing-whitespace-is-automatically-removed-but-i-dont-want-that",
-    "relUrl": "/docs/demos#trailing-whitespace-is-automatically-removed-but-i-dont-want-that"
-  },"44": {
-    "doc": "Demos",
-    "title": "Utilities",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
-    "url": "/chillax-docs/docs/demos#utilities",
-    "relUrl": "/docs/demos#utilities"
-  },"45": {
+  },"7": {
     "doc": "Demos",
     "title": "Demos",
-    "content": " ",
+    "content": "# Frequently Asked Questions {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ## Spell-check doesn't work; how do I enable it? The core-package `spell-check` doesn't scan documents in the `text.md` by default. You can easily add this yourself: - Open the Atom settings, and find the Packages tab - Search for the `spell-check` package; you can find it under the Core Packages - Open the settings for `spell-check` - Append `text.md` to the list of grammars (make sure the scopes are comma-separated) - Reload Atom to make sure the updated settings take effect ## Some of my Markdown elements aren't highlighted `language-markdown` parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There's a good chance that your syntax-theme doesn't support all the different elements that `language-markdown` recognizes. You can ask the author of the theme to add better support for `language-markdown`, or [add styles to your custom stylesheet](http://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks). You can also try one of the tried and tested syntax-themes featured above. If you can't get it to work, feel free to [open an issue](https://github.com/burodepeper/language-markdown/issues/new/), and I'll see what I can do. ## Which elements of Markdown are supported? Because there is no clear Markdown standard, I've chosen to follow the [CommonMark Spec](http://spec.commonmark.org/) as closely as possible within the Atom environment. On top of that, I've implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please [open an issue](https://github.com/burodepeper/language-markdown/issues/new/). #### Notes on implementation {: .no_toc } - Raw `html` is included when you have the default `language-html` grammar enabled - The Github Flavored `task-lists` are implemented as part of 'normal' `lists` - Setext-headers (underlined-headers) are not supported - `indented-code-blocks` have been disabled to prevent false-positives; use `fenced-code-blocks` instead ([more details](https://github.com/burodepeper/language-markdown/issues/88#issuecomment-183344420)) - Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives ## Autocompletion doesn't work Autocompletion doesn't work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the `autocomplete-plus` settings, make sure that Markdown files aren't blacklisted. Additionally, it might help to switch the default provider to Fuzzy. For Atom to index your Markdown documents as symbols, you have to add the following to your `config.cson`: ```coffee '.text.md': autocomplete: symbols: constant: selector: \"*\" typePriority: 1 ``` You can find additional information in [this issue](https://github.com/burodepeper/language-markdown/issues/150). ## Syntax-highlighting is broken after uninstall The core-package `language-gfm` is automatically disabled (unless you've enabled the setting that prevents this) when using `language-markdown` to avoid any conflicts. Because `language-markdown` is intended as a drop-in replacement you most likely won't need both anyway. However, if you uninstall `language-markdown`, `language-gfm` doesn't automatically get re-activated. There's no API available to do this, so you'll have to re-activate `language-gfm` manually, which is quite easy. 1. Open the \"Settings\" and go to the \"Packages\" tab 2. Search for `language-gfm` 3. Click `Enable` to re-activate it 4. You probably want to reload Atom to make sure the change takes effect ## Trailing whitespace is automatically removed, but I don't want that By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your `config.cson` for the `.md.text` scope. For more background, see [#115](https://github.com/burodepeper/language-markdown/issues/115). ```coffee '*': # all current config '.md.text': whitespace: removeTrailingWhitespace: false ``` ## Utilities CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/demos",
     "relUrl": "/docs/demos"
-  },"46": {
-    "doc": "FAQ",
-    "title": "Frequently Asked Questions",
-    "content": ". | Spell-check doesn’t work; how do I enable it? | Some of my Markdown elements aren’t highlighted | Which elements of Markdown are supported? | Autocompletion doesn’t work | Syntax-highlighting is broken after uninstall | Trailing whitespace is automatically removed, but I don’t want that | . ",
-    "url": "/chillax-docs/docs/faq#frequently-asked-questions",
-    "relUrl": "/docs/faq#frequently-asked-questions"
-  },"47": {
-    "doc": "FAQ",
-    "title": "Spell-check doesn’t work; how do I enable it?",
-    "content": "The core-package spell-check doesn’t scan documents in the text.md by default. You can easily add this yourself: . | Open the Atom settings, and find the Packages tab | Search for the spell-check package; you can find it under the Core Packages | Open the settings for spell-check | Append text.md to the list of grammars (make sure the scopes are comma-separated) | Reload Atom to make sure the updated settings take effect | . ",
-    "url": "/chillax-docs/docs/faq#spell-check-doesnt-work-how-do-i-enable-it",
-    "relUrl": "/docs/faq#spell-check-doesnt-work-how-do-i-enable-it"
-  },"48": {
-    "doc": "FAQ",
-    "title": "Some of my Markdown elements aren’t highlighted",
-    "content": "language-markdown parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There’s a good chance that your syntax-theme doesn’t support all the different elements that language-markdown recognizes. You can ask the author of the theme to add better support for language-markdown, or add styles to your custom stylesheet. You can also try one of the tried and tested syntax-themes featured above. If you can’t get it to work, feel free to open an issue, and I’ll see what I can do. ",
-    "url": "/chillax-docs/docs/faq#some-of-my-markdown-elements-arent-highlighted",
-    "relUrl": "/docs/faq#some-of-my-markdown-elements-arent-highlighted"
-  },"49": {
-    "doc": "FAQ",
-    "title": "Which elements of Markdown are supported?",
-    "content": "Because there is no clear Markdown standard, I’ve chosen to follow the CommonMark Spec as closely as possible within the Atom environment. On top of that, I’ve implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please open an issue. Notes on implementation . | Raw html is included when you have the default language-html grammar enabled | The Github Flavored task-lists are implemented as part of ‘normal’ lists | Setext-headers (underlined-headers) are not supported | indented-code-blocks have been disabled to prevent false-positives; use fenced-code-blocks instead (more details) | Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives | . ",
-    "url": "/chillax-docs/docs/faq#which-elements-of-markdown-are-supported",
-    "relUrl": "/docs/faq#which-elements-of-markdown-are-supported"
-  },"50": {
-    "doc": "FAQ",
-    "title": "Autocompletion doesn’t work",
-    "content": "Autocompletion doesn’t work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the autocomplete-plus settings, make sure that Markdown files aren’t blacklisted. Additionally, it might help to switch the default provider to Fuzzy. For Atom to index your Markdown documents as symbols, you have to add the following to your config.cson: . '.text.md': autocomplete: symbols: constant: selector: \"*\" typePriority: 1 . You can find additional information in this issue. ",
-    "url": "/chillax-docs/docs/faq#autocompletion-doesnt-work",
-    "relUrl": "/docs/faq#autocompletion-doesnt-work"
-  },"51": {
-    "doc": "FAQ",
-    "title": "Syntax-highlighting is broken after uninstall",
-    "content": "The core-package language-gfm is automatically disabled (unless you’ve enabled the setting that prevents this) when using language-markdown to avoid any conflicts. Because language-markdown is intended as a drop-in replacement you most likely won’t need both anyway. However, if you uninstall language-markdown, language-gfm doesn’t automatically get re-activated. There’s no API available to do this, so you’ll have to re-activate language-gfm manually, which is quite easy. | Open the “Settings” and go to the “Packages” tab | Search for language-gfm | Click Enable to re-activate it | You probably want to reload Atom to make sure the change takes effect | . ",
-    "url": "/chillax-docs/docs/faq#syntax-highlighting-is-broken-after-uninstall",
-    "relUrl": "/docs/faq#syntax-highlighting-is-broken-after-uninstall"
-  },"52": {
-    "doc": "FAQ",
-    "title": "Trailing whitespace is automatically removed, but I don’t want that",
-    "content": "By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your config.cson for the .md.text scope. For more background, see #115. '*': # all current config '.md.text': whitespace: removeTrailingWhitespace: false . ",
-    "url": "/chillax-docs/docs/faq#trailing-whitespace-is-automatically-removed-but-i-dont-want-that",
-    "relUrl": "/docs/faq#trailing-whitespace-is-automatically-removed-but-i-dont-want-that"
-  },"53": {
+  },"8": {
     "doc": "FAQ",
     "title": "FAQ",
-    "content": " ",
+    "content": "# Frequently Asked Questions {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ## Spell-check doesn't work; how do I enable it? The core-package `spell-check` doesn't scan documents in the `text.md` by default. You can easily add this yourself: - Open the Atom settings, and find the Packages tab - Search for the `spell-check` package; you can find it under the Core Packages - Open the settings for `spell-check` - Append `text.md` to the list of grammars (make sure the scopes are comma-separated) - Reload Atom to make sure the updated settings take effect ### Check the Youtube video tutorial {: .no_toc } --- ## Some of my Markdown elements aren't highlighted `language-markdown` parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There's a good chance that your syntax-theme doesn't support all the different elements that `language-markdown` recognizes. You can ask the author of the theme to add better support for `language-markdown`, or [add styles to your custom stylesheet](http://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks). You can also try one of the tried and tested syntax-themes featured above. If you can't get it to work, feel free to [open an issue](https://github.com/burodepeper/language-markdown/issues/new/), and I'll see what I can do. --- ## Which elements of Markdown are supported? Because there is no clear Markdown standard, I've chosen to follow the [CommonMark Spec](http://spec.commonmark.org/) as closely as possible within the Atom environment. On top of that, I've implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please [open an issue](https://github.com/burodepeper/language-markdown/issues/new/). #### Notes on implementation {: .no_toc } - Raw `html` is included when you have the default `language-html` grammar enabled - The Github Flavored `task-lists` are implemented as part of 'normal' `lists` - Setext-headers (underlined-headers) are not supported - `indented-code-blocks` have been disabled to prevent false-positives; use `fenced-code-blocks` instead ([more details](https://github.com/burodepeper/language-markdown/issues/88#issuecomment-183344420)) - Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives --- ## Autocompletion doesn't work Autocompletion doesn't work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the `autocomplete-plus` settings, make sure that Markdown files aren't blacklisted. Additionally, it might help to switch the default provider to Fuzzy. For Atom to index your Markdown documents as symbols, you have to add the following to your `config.cson`: ```coffee '.text.md': autocomplete: symbols: constant: selector: \"*\" typePriority: 1 ``` You can find additional information in [this issue](https://github.com/burodepeper/language-markdown/issues/150). --- ## Syntax-highlighting is broken after uninstall The core-package `language-gfm` is automatically disabled (unless you've enabled the setting that prevents this) when using `language-markdown` to avoid any conflicts. Because `language-markdown` is intended as a drop-in replacement you most likely won't need both anyway. However, if you uninstall `language-markdown`, `language-gfm` doesn't automatically get re-activated. There's no API available to do this, so you'll have to re-activate `language-gfm` manually, which is quite easy. 1. Open the \"Settings\" and go to the \"Packages\" tab 2. Search for `language-gfm` 3. Click `Enable` to re-activate it 4. You probably want to reload Atom to make sure the change takes effect --- ## Trailing whitespace is automatically removed, but I don't want that By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your `config.cson` for the `.md.text` scope. For more background, see [#115](https://github.com/burodepeper/language-markdown/issues/115). ```coffee '*': # all current config '.md.text': whitespace: removeTrailingWhitespace: false ``` ",
     "url": "/chillax-docs/docs/faq",
     "relUrl": "/docs/faq"
-  },"54": {
-    "doc": "Getting started",
-    "title": "Lists",
-    "content": " ",
-    "url": "/chillax-docs/docs/getting-started#lists",
-    "relUrl": "/docs/getting-started#lists"
-  },"55": {
-    "doc": "Getting started",
-    "title": "Table of contents",
-    "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
-    "url": "/chillax-docs/docs/getting-started#table-of-contents",
-    "relUrl": "/docs/getting-started#table-of-contents"
-  },"56": {
-    "doc": "Getting started",
-    "title": "Unordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
-    "url": "/chillax-docs/docs/getting-started#unordered-list",
-    "relUrl": "/docs/getting-started#unordered-list"
-  },"57": {
-    "doc": "Getting started",
-    "title": "Ordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
-    "url": "/chillax-docs/docs/getting-started#ordered-list",
-    "relUrl": "/docs/getting-started#ordered-list"
-  },"58": {
-    "doc": "Getting started",
-    "title": "Task list",
-    "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
-    "url": "/chillax-docs/docs/getting-started#task-list",
-    "relUrl": "/docs/getting-started#task-list"
-  },"59": {
-    "doc": "Getting started",
-    "title": "Definition list",
-    "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
-    "url": "/chillax-docs/docs/getting-started#definition-list",
-    "relUrl": "/docs/getting-started#definition-list"
-  },"60": {
+  },"9": {
     "doc": "Getting started",
     "title": "Getting started",
-    "content": " ",
+    "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/getting-started",
     "relUrl": "/docs/getting-started"
-  },"61": {
-    "doc": "Welcome",
-    "title": "Focus on writing good documentation",
-    "content": "Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages. Get started now View it on GitHub . ",
-    "url": "/chillax-docs/#focus-on-writing-good-documentation",
-    "relUrl": "/#focus-on-writing-good-documentation"
-  },"62": {
-    "doc": "Welcome",
-    "title": "Getting started",
-    "content": "Dependencies . Just the Docs is built for Jekyll, a static site generator. View the quick start guide for more information. Just the Docs requires no special plugins and can run on GitHub Pages’ standard Jekyll compiler. The Jekyll SEO Tag plugin is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the Jekyll SEO Tag usage guide. Quick start: Use as a GitHub Pages remote theme . | Add Just the Docs to your Jekyll site’s _config.yml as a remote theme remote_theme: pmarsceill/just-the-docs . You must have GitHub Pages enabled on your repo, one or more Markdown files, and a _config.yml file. See an example repository . | . Local installation: Use the gem-based theme . | Install the Ruby Gem $ gem install just-the-docs . # .. or add it to your your Jekyll site’s Gemfile gem \"just-the-docs\" . | Add Just the Docs to your Jekyll site’s _config.yml theme: \"just-the-docs\" . | Optional: Initialize search data (creates search-data.json) $ bundle exec just-the-docs rake search:init . | Run you local Jekyll server $ jekyll serve . # .. or if you're using a Gemfile (bundler) $ bundle exec jekyll serve . | Point your web browser to http://localhost:4000 | . If you’re hosting your site on GitHub Pages, set up GitHub Pages and Jekyll locally so that you can more easily work in your development environment. Configure Just the Docs . | See configuration options | . ",
-    "url": "/chillax-docs/#getting-started",
-    "relUrl": "/#getting-started"
-  },"63": {
-    "doc": "Welcome",
-    "title": "About the project",
-    "content": "Just the Docs is © 2017-2020 by Patrick Marsceill. License . Just the Docs is distributed by an MIT license. Contributing . When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in our GitHub repo. Thank you to the contributors of Just the Docs! . Code of Conduct . Just the Docs is committed to fostering a welcoming community. View our Code of Conduct on our GitHub repository. ",
-    "url": "/chillax-docs/#about-the-project",
-    "relUrl": "/#about-the-project"
-  },"64": {
+  },"10": {
     "doc": "Welcome",
     "title": "Welcome",
-    "content": " ",
+    "content": "# Focus on writing good documentation {: .fs-9 } Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages. {: .fs-6 .fw-300 } [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 } --- ## Getting started ### Dependencies Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/). ### Quick start: Use as a GitHub Pages remote theme 1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) ```yaml remote_theme: pmarsceill/just-the-docs ``` You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote) ### Local installation: Use the gem-based theme 1. Install the Ruby Gem ```bash $ gem install just-the-docs ``` ```yaml # .. or add it to your your Jekyll site’s Gemfile gem \"just-the-docs\" ``` 2. Add Just the Docs to your Jekyll site’s `_config.yml` ```yaml theme: \"just-the-docs\" ``` 3. _Optional:_ Initialize search data (creates `search-data.json`) ```bash $ bundle exec just-the-docs rake search:init ``` 3. Run you local Jekyll server ```bash $ jekyll serve ``` ```bash # .. or if you're using a Gemfile (bundler) $ bundle exec jekyll serve ``` 4. Point your web browser to [http://localhost:4000](http://localhost:4000) If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment. ### Configure Just the Docs - [See configuration options]({{ site.baseurl }}{% link docs/getting-started/configuration.md %}) --- ## About the project Just the Docs is &copy; 2017-{{ \"now\" | date: \"%Y\" }} by [Patrick Marsceill](http://patrickmarsceill.com). ### License Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt). ### Contributing When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing). #### Thank you to the contributors of Just the Docs! . {% for contributor in site.github.contributors %} | {% endfor %} . ### Code of Conduct Just the Docs is committed to fostering a welcoming community. [View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository. ",
     "url": "/chillax-docs/",
     "relUrl": "/"
-  },"65": {
+  },"11": {
     "doc": "Labels",
     "title": "Labels",
-    "content": "Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label . Blue label . Stable . New release . Coming soon . Deprecated . Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } . ",
+    "content": "# Labels Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } ```markdown Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } ``` ",
     "url": "/chillax-docs/docs/ui-components/labels/",
     "relUrl": "/docs/ui-components/labels/"
-  },"66": {
-    "doc": "Layout",
-    "title": "Layout Utilities",
-    "content": " ",
-    "url": "/chillax-docs/docs/utilities/layout/#layout-utilities",
-    "relUrl": "/docs/utilities/layout/#layout-utilities"
-  },"67": {
-    "doc": "Layout",
-    "title": "Table of contents",
-    "content": ". | Spacing | Horizontal Alignment | Vertical Alignment | Display | . ",
-    "url": "/chillax-docs/docs/utilities/layout/#table-of-contents",
-    "relUrl": "/docs/utilities/layout/#table-of-contents"
-  },"68": {
-    "doc": "Layout",
-    "title": "Spacing",
-    "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . | auto | auto | auto | . Use mx-auto to horizontally center elements. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px at large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
-    "url": "/chillax-docs/docs/utilities/layout/#spacing",
-    "relUrl": "/docs/utilities/layout/#spacing"
-  },"69": {
-    "doc": "Layout",
-    "title": "Horizontal Alignment",
-    "content": "| Classname | What it does | . | .float-left | float: left | . | .float-right | float: right | . | .flex-justify-start | justify-content: flex-start | . | .flex-justify-end | justify-content: flex-end | . | .flex-justify-between | justify-content: space-between | . | .flex-justify-around | justify-content: space-around | . Note: any of the flex- classes must be used on a parent element that has d-flex applied to it. ",
-    "url": "/chillax-docs/docs/utilities/layout/#horizontal-alignment",
-    "relUrl": "/docs/utilities/layout/#horizontal-alignment"
-  },"70": {
-    "doc": "Layout",
-    "title": "Vertical Alignment",
-    "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
-    "url": "/chillax-docs/docs/utilities/layout/#vertical-alignment",
-    "relUrl": "/docs/utilities/layout/#vertical-alignment"
-  },"71": {
-    "doc": "Layout",
-    "title": "Display",
-    "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
-    "url": "/chillax-docs/docs/utilities/layout/#display",
-    "relUrl": "/docs/utilities/layout/#display"
-  },"72": {
+  },"12": {
     "doc": "Layout",
     "title": "Layout",
-    "content": " ",
+    "content": "# Layout Utilities {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Spacing These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does |:-----------------|:------------------------------| `.m-` | `margin` | `.mx-` | `margin-left`, `margin-right` | `.my-` | `margin top`, `margin bottom` | `.mt-` | `margin-top` | `.mr-` | `margin-right` | `.mb-` | `margin-bottom` | `.ml-` | `margin-left` | Classname prefix | What it does |:-----------------|:--------------------------------| `.p-` | `padding` | `.px-` | `padding-left`, `padding-right` | `.py-` | `padding top`, `padding bottom` | `.pt-` | `padding-top` | `.pr-` | `padding-right` | `.pb-` | `padding-bottom` | `.pl-` | `padding-left` | Spacing values are based on a `1rem = 16px` spacing scale, broken down into these units: | Spacer/suffix | Size in rems | Rem converted to px |:---------------|:--------------|:--------------------| `1` | 0.25rem | 4px | `2` | 0.5rem | 8px | `3` | 0.75rem | 12px | `4` | 1rem | 16px | `5` | 1.5rem | 24px | `6` | 2rem | 32px | `7` | 2.5rem | 40px | `8` | 3rem | 48px | `auto` | auto | auto | Use `mx-auto` to horizontally center elements. #### Examples {: .no_toc } In Markdown, use the `{: }` wrapper to apply custom classes: ```markdown This paragraph will have a margin bottom of 1rem/16px at large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } ``` ## Horizontal Alignment | Classname | What it does |:------------------------|:---------------------------------| `.float-left` | `float: left` | `.float-right` | `float: right` | `.flex-justify-start` | `justify-content: flex-start` | `.flex-justify-end` | `justify-content: flex-end` | `.flex-justify-between` | `justify-content: space-between` | `.flex-justify-around` | `justify-content: space-around` | _Note: any of the `flex-` classes must be used on a parent element that has `d-flex` applied to it._ ## Vertical Alignment | Classname | What it does |:-----------------------|:--------------------------------| `.v-align-baseline` | `vertical-align: baseline` | `.v-align-bottom` | `vertical-align: bottom` | `.v-align-middle` | `vertical-align: middle` | `.v-align-text-bottom` | `vertical-align: text-bottom` | `.v-align-text-top` | `vertical-align: text-top` | `.v-align-top` | `vertical-align: top` | ## Display Display classes aid in adapting the layout of the elements on a page: | Class | |:------------------|:------------------------| `.d-block` | `display: block` | `.d-flex` | `display: flex` | `.d-inline` | `display: inline` | `.d-inline-block` | `display: inline-block` | `.d-none` | `display: none` | Use these classes in conjunction with the responsive modifiers. #### Examples {: .no_toc } In Markdown, use the `{: }` wrapper to apply custom classes: ```markdown This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } ``` ",
     "url": "/chillax-docs/docs/utilities/layout/",
     "relUrl": "/docs/utilities/layout/"
-  },"73": {
+  },"13": {
     "doc": "Lists",
     "title": "Lists",
-    "content": " ",
+    "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/ui-components/lists/",
     "relUrl": "/docs/ui-components/lists/"
-  },"74": {
-    "doc": "Lists",
-    "title": "Table of contents",
-    "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
-    "url": "/chillax-docs/docs/ui-components/lists/#table-of-contents",
-    "relUrl": "/docs/ui-components/lists/#table-of-contents"
-  },"75": {
-    "doc": "Lists",
-    "title": "Unordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
-    "url": "/chillax-docs/docs/ui-components/lists/#unordered-list",
-    "relUrl": "/docs/ui-components/lists/#unordered-list"
-  },"76": {
-    "doc": "Lists",
-    "title": "Ordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
-    "url": "/chillax-docs/docs/ui-components/lists/#ordered-list",
-    "relUrl": "/docs/ui-components/lists/#ordered-list"
-  },"77": {
-    "doc": "Lists",
-    "title": "Task list",
-    "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
-    "url": "/chillax-docs/docs/ui-components/lists/#task-list",
-    "relUrl": "/docs/ui-components/lists/#task-list"
-  },"78": {
-    "doc": "Lists",
-    "title": "Definition list",
-    "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
-    "url": "/chillax-docs/docs/ui-components/lists/#definition-list",
-    "relUrl": "/docs/ui-components/lists/#definition-list"
-  },"79": {
-    "doc": "Menus",
-    "title": "Utilities",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
-    "url": "/chillax-docs/docs/menus#utilities",
-    "relUrl": "/docs/menus#utilities"
-  },"80": {
+  },"14": {
     "doc": "Menus",
     "title": "Menus",
-    "content": " ",
+    "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ### Test Youtube video ",
     "url": "/chillax-docs/docs/menus",
     "relUrl": "/docs/menus"
-  },"81": {
-    "doc": "Responsive Modifiers",
-    "title": "Responsive modifiers",
-    "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
-    "url": "/chillax-docs/docs/utilities/responsive-modifiers/#responsive-modifiers",
-    "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
-  },"82": {
+  },"15": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
-    "content": " ",
+    "content": "# Responsive modifiers Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size |:----------|:-------------------------------------| (none) | All screens until the next modifier | `xs` | 320px (20rem) and up | `sm` | 500px (31.25rem) and up | `md` | 740px (46.25rem) and up | `lg` | 1120px (70rem) and up | `xl` | 1400px (87.5rem) and up | ",
     "url": "/chillax-docs/docs/utilities/responsive-modifiers/",
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"83": {
+  },"16": {
     "doc": "Search",
     "title": "Search",
-    "content": " ",
+    "content": "# Search {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Just the Docs uses [lunr.js](http://lunrjs.com) to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: - Page title - Page content - Page URL ## Enable search in configuration In your site's `_config.yml`, enable search: ```yaml # Enable or disable the site search # Supports true (default) or false search_enabled: true ``` ### Search granularity Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. ```yaml # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 ``` ### Search previews A search result can contain previews that show where the search words are found in the specific section. ```yaml # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 ``` ### Search tokenizer The default is for hyphens to separate tokens in search terms: `gem-based` is equivalent to `gem based`, matching either word. To allow search for hyphenated words: ```yaml # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ ``` ### Display URL in search results ```yaml # Display the relative url in search results # Supports true (default) or false search.rel_url: false ``` ### Display search button The search button displays in the bottom right corner of the screen and triggers the search input when clicked. ```yaml # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true ``` ## Hiding pages from search Sometimes you might have a page that you don't want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the `search_exclude: true` parameter to the page's YAML front matter: #### Example {: .no_toc } ```yaml --- layout: default title: Page not found nav_exclude: true search_exclude: true --- ``` ## Generate search index when used as a gem If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this `rake` command that comes with `just-the-docs`: ```bash $ bundle exec just-the-docs rake search:init ``` This command creates the `assets/js/zzzz-search-data.json` file that Jekyll uses to create your search index. Alternatively, you can create the file manually with [this content]({{ site.github.repository_url }}/blob/master/assets/js/zzzz-search-data.json). ",
     "url": "/chillax-docs/docs/search/",
     "relUrl": "/docs/search/"
-  },"84": {
-    "doc": "Search",
-    "title": "Table of contents",
-    "content": ". | Enable search in configuration . | Search granularity | Search previews | Search tokenizer | Display URL in search results | Display search button | . | Hiding pages from search | Generate search index when used as a gem | . Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: . | Page title | Page content | Page URL | . ",
-    "url": "/chillax-docs/docs/search/#table-of-contents",
-    "relUrl": "/docs/search/#table-of-contents"
-  },"85": {
-    "doc": "Search",
-    "title": "Enable search in configuration",
-    "content": "In your site’s _config.yml, enable search: . # Enable or disable the site search # Supports true (default) or false search_enabled: true . Search granularity . Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 . Search previews . A search result can contain previews that show where the search words are found in the specific section. # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 . Search tokenizer . The default is for hyphens to separate tokens in search terms: gem-based is equivalent to gem based, matching either word. To allow search for hyphenated words: . # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ . Display URL in search results . # Display the relative url in search results # Supports true (default) or false search.rel_url: false . Display search button . The search button displays in the bottom right corner of the screen and triggers the search input when clicked. # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true . ",
-    "url": "/chillax-docs/docs/search/#enable-search-in-configuration",
-    "relUrl": "/docs/search/#enable-search-in-configuration"
-  },"86": {
-    "doc": "Search",
-    "title": "Hiding pages from search",
-    "content": "Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: . Example . --- layout: default title: Page not found nav_exclude: true search_exclude: true --- . ",
-    "url": "/chillax-docs/docs/search/#hiding-pages-from-search",
-    "relUrl": "/docs/search/#hiding-pages-from-search"
-  },"87": {
-    "doc": "Search",
-    "title": "Generate search index when used as a gem",
-    "content": "If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this rake command that comes with just-the-docs: . $ bundle exec just-the-docs rake search:init . This command creates the assets/js/zzzz-search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually with this content. ",
-    "url": "/chillax-docs/docs/search/#generate-search-index-when-used-as-a-gem",
-    "relUrl": "/docs/search/#generate-search-index-when-used-as-a-gem"
-  },"88": {
-    "doc": "Chillax Slider",
-    "title": "Utilities",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
-    "url": "/chillax-docs/docs/slider#utilities",
-    "relUrl": "/docs/slider#utilities"
-  },"89": {
+  },"17": {
     "doc": "Chillax Slider",
     "title": "Chillax Slider",
-    "content": " ",
+    "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/slider",
     "relUrl": "/docs/slider"
-  },"90": {
+  },"18": {
     "doc": "Tables",
     "title": "Tables",
-    "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
+    "content": "# Tables Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | ```markdown | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | ``` ",
     "url": "/chillax-docs/docs/ui-components/tables/",
     "relUrl": "/docs/ui-components/tables/"
-  },"91": {
-    "doc": "Test Page",
-    "title": "Dillinger",
-    "content": "| [![N | Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) | . Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor. | Type some Markdown on the left | See HTML in the right | Magic | . ",
-    "url": "/chillax-docs/test/#dillinger",
-    "relUrl": "/test/#dillinger"
-  },"92": {
-    "doc": "Test Page",
-    "title": "New Features!",
-    "content": ". | Import a HTML file and watch it magically convert to Markdown | Drag and drop images (requires your Dropbox account be linked) | . You can also: . | Import and save files from GitHub, Dropbox, Google Drive and One Drive | Drag and drop markdown and HTML files into Dillinger | Export documents as Markdown, HTML and PDF | . Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email. As John Gruber writes on the Markdown site . The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. This text you see here is actually written in Markdown! To get a feel for Markdown’s syntax, type some text into the left window and watch the results in the right. Tech . Dillinger uses a number of open source projects to work properly: . | AngularJS - HTML enhanced for web apps! | Ace Editor - awesome web-based text editor | markdown-it - Markdown parser done right. Fast and easy to extend. | Twitter Bootstrap - great UI boilerplate for modern web apps | node.js - evented I/O for the backend | Express - fast node.js network app framework @tjholowaychuk | Gulp - the streaming build system | Breakdance - HTML to Markdown converter | jQuery - duh | . And of course Dillinger itself is open source with a public repository on GitHub. Installation . Dillinger requires Node.js v4+ to run. Install the dependencies and devDependencies and start the server. $ cd dillinger $ npm install -d $ node app . For production environments… . $ npm install --production $ NODE_ENV=production node app . Plugins . Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below. | Plugin | README | . | Dropbox | plugins/dropbox/README.md | . | GitHub | plugins/github/README.md | . | Google Drive | plugins/googledrive/README.md | . | OneDrive | plugins/onedrive/README.md | . | Medium | plugins/medium/README.md | . | Google Analytics | plugins/googleanalytics/README.md | . Development . Want to contribute? Great! . Dillinger uses Gulp + Webpack for fast developing. Make a change in your file and instantaneously see your updates! . Open your favorite Terminal and run these commands. First Tab: . $ node app . Second Tab: . $ gulp watch . (optional) Third: . $ karma test . Building for source . For production release: . $ gulp build --prod . Generating pre-built zip archives for distribution: . $ gulp build dist --prod . Docker . Dillinger is very easy to install and deploy in a Docker container. By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image. cd dillinger docker build -t joemccann/dillinger:${package.json.version} . This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out ${package.json.version} with the actual version of Dillinger. Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile): . docker run -d -p 8000:8080 --restart=\"always\" &lt;youruser&gt;/dillinger:${package.json.version} . Verify the deployment by navigating to your server address in your preferred browser. 127.0.0.1:8000 . Kubernetes + Google Cloud . See KUBERNETES.md . Todos . | Write MORE Tests | Add Night Mode | . ",
-    "url": "/chillax-docs/test/#new-features",
-    "relUrl": "/test/#new-features"
-  },"93": {
-    "doc": "Test Page",
-    "title": "License",
-    "content": "MIT . Free Software, Hell Yeah! . (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn’t be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax) . ## Shadman . Free Software, Hell Yeah! . ",
-    "url": "/chillax-docs/test/#license",
-    "relUrl": "/test/#license"
-  },"94": {
+  },"19": {
     "doc": "Test Page",
     "title": "Test Page",
-    "content": "# Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark . Preview dark color scheme . ",
+    "content": "```yaml # Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark ``` Preview dark color scheme # Dillinger [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor. - Type some Markdown on the left - See HTML in the right - Magic # New Features! - Import a HTML file and watch it magically convert to Markdown - Drag and drop images (requires your Dropbox account be linked) You can also: - Import and save files from GitHub, Dropbox, Google Drive and One Drive - Drag and drop markdown and HTML files into Dillinger - Export documents as Markdown, HTML and PDF Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email. As [John Gruber] writes on the [Markdown site][df1] > The overriding design goal for Markdown's > formatting syntax is to make it as readable > as possible. The idea is that a > Markdown-formatted document should be > publishable as-is, as plain text, without > looking like it's been marked up with tags > or formatting instructions. This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right. ### Tech Dillinger uses a number of open source projects to work properly: * [AngularJS] - HTML enhanced for web apps! * [Ace Editor] - awesome web-based text editor * [markdown-it] - Markdown parser done right. Fast and easy to extend. * [Twitter Bootstrap] - great UI boilerplate for modern web apps * [node.js] - evented I/O for the backend * [Express] - fast node.js network app framework [@tjholowaychuk] * [Gulp] - the streaming build system * [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter * [jQuery] - duh And of course Dillinger itself is open source with a [public repository][dill] on GitHub. ### Installation Dillinger requires [Node.js](https://nodejs.org/) v4+ to run. Install the dependencies and devDependencies and start the server. ```sh $ cd dillinger $ npm install -d $ node app ``` For production environments... ```sh $ npm install --production $ NODE_ENV=production node app ``` ### Plugins Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below. | Plugin | README | ------ | ------ | Dropbox | [plugins/dropbox/README.md][PlDb] | GitHub | [plugins/github/README.md][PlGh] | Google Drive | [plugins/googledrive/README.md][PlGd] | OneDrive | [plugins/onedrive/README.md][PlOd] | Medium | [plugins/medium/README.md][PlMe] | Google Analytics | [plugins/googleanalytics/README.md][PlGa] | ### Development Want to contribute? Great! Dillinger uses Gulp + Webpack for fast developing. Make a change in your file and instantaneously see your updates! Open your favorite Terminal and run these commands. First Tab: ```sh $ node app ``` Second Tab: ```sh $ gulp watch ``` (optional) Third: ```sh $ karma test ``` #### Building for source For production release: ```sh $ gulp build --prod ``` Generating pre-built zip archives for distribution: ```sh $ gulp build dist --prod ``` ### Docker Dillinger is very easy to install and deploy in a Docker container. By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image. ```sh cd dillinger docker build -t joemccann/dillinger:${package.json.version} . ``` This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger. Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile): ```sh docker run -d -p 8000:8080 --restart=\"always\" /dillinger:${package.json.version} ``` Verify the deployment by navigating to your server address in your preferred browser. ```sh 127.0.0.1:8000 ``` #### Kubernetes + Google Cloud See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md) ### Todos - Write MORE Tests - Add Night Mode License ---- MIT **Free Software, Hell Yeah!** ### (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax) [dill]: [git-repo-url]: [john gruber]: [df1]: [markdown-it]: [Ace Editor]: [node.js]: [Twitter Bootstrap]: [jQuery]: [@tjholowaychuk]: [express]: [AngularJS]: [Gulp]: [PlDb]: [PlGh]: [PlGd]: [PlOd]: [PlMe]: [PlGa]: ## Shadman **Free Software, Hell Yeah!** ",
     "url": "/chillax-docs/test/",
     "relUrl": "/test/"
-  },"95": {
-    "doc": "Theme Options",
-    "title": "Utilities",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
-    "url": "/chillax-docs/docs/theme-options#utilities",
-    "relUrl": "/docs/theme-options#utilities"
-  },"96": {
+  },"20": {
     "doc": "Theme Options",
     "title": "Theme Options",
-    "content": " ",
+    "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/theme-options",
     "relUrl": "/docs/theme-options"
-  },"97": {
-    "doc": "Tutorial",
-    "title": "Utilities",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
-    "url": "/chillax-docs/docs/tutorial#utilities",
-    "relUrl": "/docs/tutorial#utilities"
-  },"98": {
+  },"21": {
     "doc": "Tutorial",
     "title": "Tutorial",
-    "content": " ",
+    "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/tutorial",
     "relUrl": "/docs/tutorial"
-  },"99": {
-    "doc": "Typography",
-    "title": "Typography Utilities",
-    "content": " ",
-    "url": "/chillax-docs/docs/utilities/typography/#typography-utilities",
-    "relUrl": "/docs/utilities/typography/#typography-utilities"
-  },"100": {
-    "doc": "Typography",
-    "title": "Table of contents",
-    "content": ". | Font size | Font weight | Line height | Text justification | . ",
-    "url": "/chillax-docs/docs/utilities/typography/#table-of-contents",
-    "relUrl": "/docs/utilities/typography/#table-of-contents"
-  },"101": {
-    "doc": "Typography",
-    "title": "Font size",
-    "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
-    "url": "/chillax-docs/docs/utilities/typography/#font-size",
-    "relUrl": "/docs/utilities/typography/#font-size"
-  },"102": {
-    "doc": "Typography",
-    "title": "Font weight",
-    "content": "Use the .fw-300 - .fw-700 to set an explicit font-size. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
-    "url": "/chillax-docs/docs/utilities/typography/#font-weight",
-    "relUrl": "/docs/utilities/typography/#font-weight"
-  },"103": {
-    "doc": "Typography",
-    "title": "Line height",
-    "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
-    "url": "/chillax-docs/docs/utilities/typography/#line-height",
-    "relUrl": "/docs/utilities/typography/#line-height"
-  },"104": {
-    "doc": "Typography",
-    "title": "Text justification",
-    "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
-    "url": "/chillax-docs/docs/utilities/typography/#text-justification",
-    "relUrl": "/docs/utilities/typography/#text-justification"
-  },"105": {
+  },"22": {
     "doc": "Typography",
     "title": "Typography",
-    "content": " ",
+    "content": "# Typography Utilities {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Font size Use the `.fs-1` - `.fs-10` to set an explicit font-size. | Class | Small screen size `font-size` | Large screen size `font-size` |:--------|:-------------------------------|:------------------------------| `.fs-1` | 9px | 10px | `.fs-2` | 11px | 12px | `.fs-3` | 12px | 14px | `.fs-4` | 14px | 16px | `.fs-5` | 16px | 18px | `.fs-6` | 18px | 24px | `.fs-7` | 24px | 32px | `.fs-8` | 32px | 38px | `.fs-9` | 38px | 42px | `.fs-10`| 42px | 48px | Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } ```markdown In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } ``` ## Font weight Use the `.fw-300` - `.fw-700` to set an explicit font-size. Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } ```markdown In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } ``` ## Line height Use the `lh-` classes to explicitly apply line height to text. | Class | `line-height` value | Notes |:--------------|:---------------------|:------------------------------| `.lh-0` | 0 | | `.lh-tight` | 1.1 | Default for headings | `.lh-default` | 1.4 | Default for body (paragraphs) | No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } ```markdown In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } ``` ## Text justification By default text is justified left. Use these `text-` classes to override settings: | Class | What it does |:---------------|:---------------------| `.text-left` | `text-align: left` | `.text-right` | `text-align: right` | `.text-center` | `text-align: center` | ",
     "url": "/chillax-docs/docs/utilities/typography/",
     "relUrl": "/docs/utilities/typography/"
-  },"106": {
-    "doc": "Typography",
-    "title": "Typography",
-    "content": " ",
-    "url": "/chillax-docs/docs/ui-components/typography/",
-    "relUrl": "/docs/ui-components/typography/"
-  },"107": {
-    "doc": "Typography",
-    "title": "Table of contents",
-    "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
-    "url": "/chillax-docs/docs/ui-components/typography/#table-of-contents",
-    "relUrl": "/docs/ui-components/typography/#table-of-contents"
-  },"108": {
-    "doc": "Typography",
-    "title": "Font stack",
-    "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . -apple-system, BlinkMacSystemFont, \"helvetica neue\", helvetica, roboto, noto, \"segoe ui\", arial, sans-serif . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
-    "url": "/chillax-docs/docs/ui-components/typography/#font-stack",
-    "relUrl": "/docs/ui-components/typography/#font-stack"
-  },"109": {
-    "doc": "Typography",
-    "title": "Responsive type scale",
-    "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
-    "url": "/chillax-docs/docs/ui-components/typography/#responsive-type-scale",
-    "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
-  },"110": {
-    "doc": "Typography",
-    "title": "Headings",
-    "content": "Headings are rendered like this: . ",
-    "url": "/chillax-docs/docs/ui-components/typography/#headings",
-    "relUrl": "/docs/ui-components/typography/#headings"
-  },"111": {
+  },"23": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "/chillax-docs/docs/ui-components/typography/",
     "relUrl": "/docs/ui-components/typography/"
-  },"112": {
+  },"24": {
     "doc": "Typography",
     "title": "Heading 2",
-    "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
+    "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . ```markdown # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 ``` --- ## Body text Default body text is rendered like this: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ```markdown Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ``` --- ## Inline elements Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ```markdown Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ``` --- ## Typographic Utilities There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. [View typography utilities]({{ site.baseurl }}{% link docs/utilities/utilities.md %}#typography){: .btn .btn-outline } ",
     "url": "/chillax-docs/docs/ui-components/typography/",
     "relUrl": "/docs/ui-components/typography/"
-  },"113": {
+  },"25": {
     "doc": "Typography",
-    "title": "Body text",
-    "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
-    "url": "/chillax-docs/docs/ui-components/typography/#body-text",
-    "relUrl": "/docs/ui-components/typography/#body-text"
-  },"114": {
-    "doc": "Typography",
-    "title": "Inline elements",
-    "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ",
-    "url": "/chillax-docs/docs/ui-components/typography/#inline-elements",
-    "relUrl": "/docs/ui-components/typography/#inline-elements"
-  },"115": {
-    "doc": "Typography",
-    "title": "Typographic Utilities",
-    "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
-    "url": "/chillax-docs/docs/ui-components/typography/#typographic-utilities",
-    "relUrl": "/docs/ui-components/typography/#typographic-utilities"
-  },"116": {
+    "title": "Typography",
+    "content": "# Typography {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Font stack By default, Just the Docs uses a native system font stack for sans-serif fonts: ```scss -apple-system, BlinkMacSystemFont, \"helvetica neue\", helvetica, roboto, noto, \"segoe ui\", arial, sans-serif ``` ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz {: .fs-5 .ls-10 .code-example } For monospace type, like code snippets or the `` element, Just the Docs uses a native system font stack for monospace fonts: ```scss \"SFMono-Regular\", Menlo, Consolas, Monospace ``` ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz {: .fs-5 .ls-10 .text-mono .code-example } --- ## Responsive type scale Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size `font-size` | Large screen size `font-size` |:----------------------|:---------------------------------|:------------------------------| `h1`, `.text-alpha` | 32px | 36px | `h2`, `.text-beta` | 18px | 24px | `h3`, `.text-gamma` | 16px | 18px | `h4`, `.text-delta` | 14px | 16px | `h5`, `.text-epsilon` | 16px | 18px | `h6`, `.text-zeta` | 18px | 24px | `body` | 14px | 16px | --- ## Headings Headings are rendered like this: ",
+    "url": "/chillax-docs/docs/ui-components/typography/",
+    "relUrl": "/docs/ui-components/typography/"
+  },"26": {
     "doc": "UI Components",
     "title": "UI Components",
-    "content": "To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. ",
+    "content": "# UI Components To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. {: .fs-6 .fw-300 } ",
     "url": "/chillax-docs/docs/ui-components",
     "relUrl": "/docs/ui-components"
-  },"117": {
+  },"27": {
     "doc": "Utilities",
     "title": "Utilities",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. ",
+    "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } ",
     "url": "/chillax-docs/docs/utilities",
     "relUrl": "/docs/utilities"
-  },"118": {
-    "doc": "Video Tutorial",
-    "title": "Lists",
-    "content": " ",
-    "url": "/chillax-docs/docs/tutorial/video/#lists",
-    "relUrl": "/docs/tutorial/video/#lists"
-  },"119": {
-    "doc": "Video Tutorial",
-    "title": "Table of contents",
-    "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
-    "url": "/chillax-docs/docs/tutorial/video/#table-of-contents",
-    "relUrl": "/docs/tutorial/video/#table-of-contents"
-  },"120": {
-    "doc": "Video Tutorial",
-    "title": "Unordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
-    "url": "/chillax-docs/docs/tutorial/video/#unordered-list",
-    "relUrl": "/docs/tutorial/video/#unordered-list"
-  },"121": {
-    "doc": "Video Tutorial",
-    "title": "Ordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
-    "url": "/chillax-docs/docs/tutorial/video/#ordered-list",
-    "relUrl": "/docs/tutorial/video/#ordered-list"
-  },"122": {
-    "doc": "Video Tutorial",
-    "title": "Task list",
-    "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
-    "url": "/chillax-docs/docs/tutorial/video/#task-list",
-    "relUrl": "/docs/tutorial/video/#task-list"
-  },"123": {
-    "doc": "Video Tutorial",
-    "title": "Definition list",
-    "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
-    "url": "/chillax-docs/docs/tutorial/video/#definition-list",
-    "relUrl": "/docs/tutorial/video/#definition-list"
-  },"124": {
+  },"28": {
     "doc": "Video Tutorial",
     "title": "Video Tutorial",
-    "content": " ",
+    "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/tutorial/video/",
     "relUrl": "/docs/tutorial/video/"
-  },"125": {
-    "doc": "Visual Composer Elements",
-    "title": "Utilities",
-    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. If you want to embed images, this is how you do it: . ",
-    "url": "/chillax-docs/docs/visual-composer-elements#utilities",
-    "relUrl": "/docs/visual-composer-elements#utilities"
-  },"126": {
+  },"29": {
     "doc": "Visual Composer Elements",
     "title": "Visual Composer Elements",
-    "content": " ",
+    "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/visual-composer-elements",
     "relUrl": "/docs/visual-composer-elements"
-  },"127": {
-    "doc": "WooCommerce",
-    "title": "Lists",
-    "content": " ",
-    "url": "/chillax-docs/docs/theme-options/woocommerce/#lists",
-    "relUrl": "/docs/theme-options/woocommerce/#lists"
-  },"128": {
-    "doc": "WooCommerce",
-    "title": "Table of contents",
-    "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
-    "url": "/chillax-docs/docs/theme-options/woocommerce/#table-of-contents",
-    "relUrl": "/docs/theme-options/woocommerce/#table-of-contents"
-  },"129": {
-    "doc": "WooCommerce",
-    "title": "Unordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
-    "url": "/chillax-docs/docs/theme-options/woocommerce/#unordered-list",
-    "relUrl": "/docs/theme-options/woocommerce/#unordered-list"
-  },"130": {
-    "doc": "WooCommerce",
-    "title": "Ordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
-    "url": "/chillax-docs/docs/theme-options/woocommerce/#ordered-list",
-    "relUrl": "/docs/theme-options/woocommerce/#ordered-list"
-  },"131": {
-    "doc": "WooCommerce",
-    "title": "Task list",
-    "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
-    "url": "/chillax-docs/docs/theme-options/woocommerce/#task-list",
-    "relUrl": "/docs/theme-options/woocommerce/#task-list"
-  },"132": {
-    "doc": "WooCommerce",
-    "title": "Definition list",
-    "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
-    "url": "/chillax-docs/docs/theme-options/woocommerce/#definition-list",
-    "relUrl": "/docs/theme-options/woocommerce/#definition-list"
-  },"133": {
+  },"30": {
     "doc": "WooCommerce",
     "title": "WooCommerce",
-    "content": " ",
+    "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/theme-options/woocommerce/",
     "relUrl": "/docs/theme-options/woocommerce/"
-  },"134": {
-    "doc": "WooCommerce",
-    "title": "Lists",
-    "content": " ",
-    "url": "/chillax-docs/docs/visual-composer-elements/woocommerce/#lists",
-    "relUrl": "/docs/visual-composer-elements/woocommerce/#lists"
-  },"135": {
-    "doc": "WooCommerce",
-    "title": "Table of contents",
-    "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
-    "url": "/chillax-docs/docs/visual-composer-elements/woocommerce/#table-of-contents",
-    "relUrl": "/docs/visual-composer-elements/woocommerce/#table-of-contents"
-  },"136": {
-    "doc": "WooCommerce",
-    "title": "Unordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
-    "url": "/chillax-docs/docs/visual-composer-elements/woocommerce/#unordered-list",
-    "relUrl": "/docs/visual-composer-elements/woocommerce/#unordered-list"
-  },"137": {
-    "doc": "WooCommerce",
-    "title": "Ordered list",
-    "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
-    "url": "/chillax-docs/docs/visual-composer-elements/woocommerce/#ordered-list",
-    "relUrl": "/docs/visual-composer-elements/woocommerce/#ordered-list"
-  },"138": {
-    "doc": "WooCommerce",
-    "title": "Task list",
-    "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
-    "url": "/chillax-docs/docs/visual-composer-elements/woocommerce/#task-list",
-    "relUrl": "/docs/visual-composer-elements/woocommerce/#task-list"
-  },"139": {
-    "doc": "WooCommerce",
-    "title": "Definition list",
-    "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
-    "url": "/chillax-docs/docs/visual-composer-elements/woocommerce/#definition-list",
-    "relUrl": "/docs/visual-composer-elements/woocommerce/#definition-list"
-  },"140": {
+  },"31": {
     "doc": "WooCommerce",
     "title": "WooCommerce",
-    "content": " ",
+    "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/visual-composer-elements/woocommerce/",
     "relUrl": "/docs/visual-composer-elements/woocommerce/"
   }
