@@ -582,6 +582,8 @@ tbody tr:last-of-type td { padding-bottom: 0.75rem; }
 
 thead th { border-bottom: 1px solid #eeebee; }
 
+.highlight .open_grepper_editor { display: none !important; }
+
 code { padding: 0.2em 0.15em; font-weight: 400; background-color: #f5f6fa; border: 1px solid #eeebee; border-radius: 4px; }
 
 pre.highlight, figure.highlight { padding: 0.75rem; margin-top: 0; margin-bottom: 0; background-color: #f5f6fa; border-radius: 4px; -webkit-overflow-scrolling: touch; }
