@@ -1563,4 +1563,6 @@ img.zoom-img { cursor: zoom-out; }
 
 .zoom-overlay-open, .zoom-overlay-transitioning { cursor: default; }
 
+.home-nav-list { /* -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; */ }
+
 /*# sourceMappingURL=just-the-docs-default.css.map */
