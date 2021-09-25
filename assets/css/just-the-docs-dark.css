@@ -242,9 +242,9 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 
 .main-content ol > li { position: relative; }
 
-.main-content ol > li::before { position: absolute; top: 0.2em; left: -1.6em; color: #959396; content: counter(step-counter); counter-increment: step-counter; font-size: 12px !important; }
+.main-content ol > li::before { position: absolute; top: 0.2em; left: -1em; color: #959396; content: counter(step-counter); counter-increment: step-counter; font-size: 16px !important; }
 
-@media (min-width: 31.25rem) { .main-content ol > li::before { font-size: 14px !important; } }
+@media (min-width: 31.25rem) { .main-content ol > li::before { font-size: 18px !important; } }
 
 @media (min-width: 31.25rem) { .main-content ol > li::before { top: 0.11em; } }
 
@@ -1564,5 +1564,7 @@ img.zoom-img { cursor: zoom-out; }
 .zoom-overlay-open, .zoom-overlay-transitioning { cursor: default; }
 
 .home-nav-list { /* -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; */ }
+
+.clx-notice { background: #f5f6fa !important; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); padding: 10px 12px; border-radius: 5px; border: 0; border-left: 4px solid #3f7af1; }
 
 /*# sourceMappingURL=just-the-docs-dark.css.map */
