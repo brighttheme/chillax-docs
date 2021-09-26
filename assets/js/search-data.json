@@ -59,11 +59,11 @@
     "url": "/chillax-docs/docs/visual-composer-elements/blogpost/",
     "relUrl": "/docs/visual-composer-elements/blogpost/"
   },"10": {
-    "doc": "Blog Posts Page",
-    "title": "Blog Posts Page",
-    "content": "## Blog Posts Page If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/options/blogpostspage.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/blogpostspage/",
-    "relUrl": "/docs/theme-options/blogpostspage/"
+    "doc": "Blog Posts",
+    "title": "Blog Posts",
+    "content": "## Blog Posts Page {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Posts page ![Image](/chillax-docs/assets/images/options/post-page.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Archive & Posts Page Top Text area ![Image](/chillax-docs/assets/images/options/post-page-archive.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Single Post ![Image](/chillax-docs/assets/images/options/single-post.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Author Box ![Image](/chillax-docs/assets/images/options/single-post-author-bio.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Related Posts ![Image](/chillax-docs/assets/images/options/releted-post.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Posts Page & Archive Pages Typography ![Image](/chillax-docs/assets/images/options/post-typography-postpage.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Single Post (Details) Page Typography ![Image](/chillax-docs/assets/images/options/post-typography-single-post.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "url": "/chillax-docs/docs/theme-options/blogposts/",
+    "relUrl": "/docs/theme-options/blogposts/"
   },"11": {
     "doc": "Buttons",
     "title": "Buttons",
@@ -83,17 +83,17 @@
     "url": "/chillax-docs/docs/category/category-layout/",
     "relUrl": "/docs/category/category-layout/"
   },"14": {
-    "doc": "Category",
-    "title": "Category",
-    "content": "## Category {: .no_toc } ![Image](/chillax-docs/assets/images/options/category.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
-    "url": "/chillax-docs/docs/theme-options/category/",
-    "relUrl": "/docs/theme-options/category/"
-  },"15": {
     "doc": "Category Page",
     "title": "Category Page",
     "content": "# Frequently Asked Questions {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ",
     "url": "/chillax-docs/docs/category",
     "relUrl": "/docs/category"
+  },"15": {
+    "doc": "Category",
+    "title": "Category",
+    "content": "## Category {: .no_toc } ![Image](/chillax-docs/assets/images/options/category.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "url": "/chillax-docs/docs/theme-options/category/",
+    "relUrl": "/docs/theme-options/category/"
   },"16": {
     "doc": "Changelog",
     "title": "Changelog",
@@ -173,9 +173,9 @@
     "url": "/chillax-docs/docs/visual-composer-elements/contractform/",
     "relUrl": "/docs/visual-composer-elements/contractform/"
   },"29": {
-    "doc": "customcode",
-    "title": "customcode",
-    "content": "##customcode If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+    "doc": "Custom Code",
+    "title": "Custom Code",
+    "content": "## Custom Code {: .no_toc } ### Footer (Footer Bottom) ![Image](/chillax-docs/assets/images/options/custom-code.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/customcode/",
     "relUrl": "/docs/theme-options/customcode/"
   },"30": {
@@ -191,9 +191,9 @@
     "url": "/chillax-docs/docs/customization/",
     "relUrl": "/docs/customization/"
   },"32": {
-    "doc": "elements",
-    "title": "elements",
-    "content": "##elements If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+    "doc": "Elements",
+    "title": "Elements",
+    "content": "## Elements {: .no_toc } ![Image](/chillax-docs/assets/images/options/login-page.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/elements/",
     "relUrl": "/docs/theme-options/elements/"
   },"33": {
@@ -229,15 +229,15 @@
   },"38": {
     "doc": "Footer",
     "title": "Footer",
-    "content": "## Footer {: .no_toc } ",
-    "url": "/chillax-docs/docs/theme-options/footer/footer/",
-    "relUrl": "/docs/theme-options/footer/footer/"
-  },"39": {
-    "doc": "Footer",
-    "title": "Footer",
     "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/footer",
     "relUrl": "/docs/footer"
+  },"39": {
+    "doc": "Footer",
+    "title": "Footer",
+    "content": "## Footer {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Footer (Footer Bottom) ![Image](/chillax-docs/assets/images/options/footer-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Footer Widgets(Footer Top) ![Image](/chillax-docs/assets/images/options/header-menu.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Title & Breadcrumb ![Image](/chillax-docs/assets/images/options/title-breadcrumb.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Footer Top - Typography ![Image](/chillax-docs/assets/images/options/footer-typography-top.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Footer Bottom - Typography ![Image](/chillax-docs/assets/images/options/footer-typography-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "url": "/chillax-docs/docs/theme-options/footer/",
+    "relUrl": "/docs/theme-options/footer/"
   },"40": {
     "doc": "Footer Typography",
     "title": "Footer Typography",
@@ -257,9 +257,9 @@
     "url": "/chillax-docs/docs/getting-started",
     "relUrl": "/docs/getting-started"
   },"43": {
-    "doc": "googlemap",
-    "title": "googlemap",
-    "content": "##googlemap If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+    "doc": "Google Map",
+    "title": "Google Map",
+    "content": "## Google Map {: .no_toc } ![Image](/chillax-docs/assets/images/options/google-map.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/googlemap/",
     "relUrl": "/docs/theme-options/googlemap/"
   },"44": {
@@ -271,15 +271,15 @@
   },"45": {
     "doc": "Header",
     "title": "Header",
-    "content": "## Header {: .no_toc } ",
-    "url": "/chillax-docs/docs/theme-options/header/header/",
-    "relUrl": "/docs/theme-options/header/header/"
-  },"46": {
-    "doc": "Header",
-    "title": "Header",
     "content": "# UI Components To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. {: .fs-6 .fw-300 } ",
     "url": "/chillax-docs/docs/header",
     "relUrl": "/docs/header"
+  },"46": {
+    "doc": "Header",
+    "title": "Header",
+    "content": "## Header {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Header ![Image](/chillax-docs/assets/images/options/header.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Header Menu ![Image](/chillax-docs/assets/images/options/header-menu.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Title & Breadcrumb ![Image](/chillax-docs/assets/images/options/title-breadcrumb.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Top Bar ![Image](/chillax-docs/assets/images/options/top-bar.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Topbar Styles ![Image](/chillax-docs/assets/images/options/top-bar-style.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Sticky Header ![Image](/chillax-docs/assets/images/options/sticky-header.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "url": "/chillax-docs/docs/theme-options/header/",
+    "relUrl": "/docs/theme-options/header/"
   },"47": {
     "doc": "Header Menu",
     "title": "Header Menu",
@@ -295,7 +295,7 @@
   },"49": {
     "doc": "Import Export",
     "title": "Import Export",
-    "content": "## Import Export If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/options/import-export.jpg) ",
+    "content": "## Import Export {: .no_toc } ### Import Export Options ![Image](/chillax-docs/assets/images/options/import-export.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/import-export/",
     "relUrl": "/docs/theme-options/import-export/"
   },"50": {
@@ -347,9 +347,9 @@
     "url": "/chillax-docs/docs/header/lists/",
     "relUrl": "/docs/header/lists/"
   },"58": {
-    "doc": "loginpage",
-    "title": "loginpage",
-    "content": "##loginpage If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+    "doc": "Login Page",
+    "title": "Login Page",
+    "content": "## Login page {: .no_toc } ![Image](/chillax-docs/assets/images/options/login-page.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/loginpage/",
     "relUrl": "/docs/theme-options/loginpage/"
   },"59": {
@@ -365,9 +365,9 @@
     "url": "/chillax-docs/docs/visual-composer-elements/logoscarousel/",
     "relUrl": "/docs/visual-composer-elements/logoscarousel/"
   },"61": {
-    "doc": "maintenancemode",
-    "title": "maintenancemode",
-    "content": "##maintenancemode If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+    "doc": "Maintenance Mode",
+    "title": "Maintenance Mode",
+    "content": "## Maintenance Mode {: .no_toc } ![Image](/chillax-docs/assets/images/options/maintenance-mode.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/maintenancemode/",
     "relUrl": "/docs/theme-options/maintenancemode/"
   },"62": {
@@ -401,9 +401,9 @@
     "url": "/chillax-docs/docs/page-options",
     "relUrl": "/docs/page-options"
   },"67": {
-    "doc": "portfolio",
-    "title": "portfolio",
-    "content": "##portfolio If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+    "doc": "Portfolio",
+    "title": "Portfolio",
+    "content": "## Portfolio {: .no_toc } ![Image](/chillax-docs/assets/images/options/portfolio.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/portfolio/",
     "relUrl": "/docs/theme-options/portfolio/"
   },"68": {
@@ -419,221 +419,221 @@
     "url": "/chillax-docs/docs/visual-composer-elements/portfolliogrid/",
     "relUrl": "/docs/visual-composer-elements/portfolliogrid/"
   },"70": {
-    "doc": "postsslideshow",
-    "title": "postsslideshow",
-    "content": "##postsslideshow If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+    "doc": "Posts Slideshow",
+    "title": "Posts Slideshow",
+    "content": "## Posts Slideshow ![Image](/chillax-docs/assets/images/options/post-slideshow.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/postsslideshow/",
     "relUrl": "/docs/theme-options/postsslideshow/"
   },"71": {
-    "doc": "posttypography",
-    "title": "posttypography",
-    "content": "##posttypography If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/posttypography/",
-    "relUrl": "/docs/theme-options/posttypography/"
-  },"72": {
     "doc": "pricingtable",
     "title": "pricingtable",
     "content": "##pricingtable ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/pricingtable/",
     "relUrl": "/docs/visual-composer-elements/pricingtable/"
-  },"73": {
+  },"72": {
     "doc": "Primary Nav",
     "title": "Primary Nav",
     "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/navigation/primary/",
     "relUrl": "/docs/navigation/primary/"
-  },"74": {
+  },"73": {
     "doc": "productcarousel",
     "title": "productcarousel",
     "content": "##productcarousel ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/productcarousel/",
     "relUrl": "/docs/visual-composer-elements/productcarousel/"
-  },"75": {
-    "doc": "relatedposts",
-    "title": "relatedposts",
-    "content": "##relatedposts If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/relatedposts/",
-    "relUrl": "/docs/theme-options/relatedposts/"
-  },"76": {
+  },"74": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": "# Responsive modifiers Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size |:----------|:-------------------------------------| (none) | All screens until the next modifier | `xs` | 320px (20rem) and up | `sm` | 500px (31.25rem) and up | `md` | 740px (46.25rem) and up | `lg` | 1120px (70rem) and up | `xl` | 1400px (87.5rem) and up | ",
     "url": "/chillax-docs/docs/utilities/responsive-modifiers/",
     "relUrl": "/docs/utilities/responsive-modifiers/"
-  },"77": {
+  },"75": {
     "doc": "reviewscarousel",
     "title": "reviewscarousel",
     "content": "##reviewscarousel ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/reviewscarousel/",
     "relUrl": "/docs/visual-composer-elements/reviewscarousel/"
-  },"78": {
+  },"76": {
     "doc": "reviewsdynamic",
     "title": "reviewsdynamic",
     "content": "##reviewsdynamic ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/reviewsdynamic/",
     "relUrl": "/docs/visual-composer-elements/reviewsdynamic/"
-  },"79": {
+  },"77": {
     "doc": "Search",
     "title": "Search",
     "content": "# Search {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Just the Docs uses [lunr.js](http://lunrjs.com) to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: - Page title - Page content - Page URL ## Enable search in configuration In your site's `_config.yml`, enable search: ```yaml # Enable or disable the site search # Supports true (default) or false search_enabled: true ``` ### Search granularity Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. ```yaml # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 ``` ### Search previews A search result can contain previews that show where the search words are found in the specific section. ```yaml # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 ``` ### Search tokenizer The default is for hyphens to separate tokens in search terms: `gem-based` is equivalent to `gem based`, matching either word. To allow search for hyphenated words: ```yaml # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ ``` ### Display URL in search results ```yaml # Display the relative url in search results # Supports true (default) or false search.rel_url: false ``` ### Display search button The search button displays in the bottom right corner of the screen and triggers the search input when clicked. ```yaml # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true ``` ## Hiding pages from search Sometimes you might have a page that you don't want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the `search_exclude: true` parameter to the page's YAML front matter: #### Example {: .no_toc } ```yaml --- layout: default title: Page not found nav_exclude: true search_exclude: true --- ``` ## Generate search index when used as a gem If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this `rake` command that comes with `just-the-docs`: ```bash $ bundle exec just-the-docs rake search:init ``` This command creates the `assets/js/zzzz-search-data.json` file that Jekyll uses to create your search index. Alternatively, you can create the file manually with [this content]({{ site.github.repository_url }}/blob/master/assets/js/zzzz-search-data.json). ",
     "url": "/chillax-docs/docs/search/",
     "relUrl": "/docs/search/"
-  },"80": {
-    "doc": "search",
-    "title": "search",
-    "content": "##search If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+  },"78": {
+    "doc": "Search",
+    "title": "Search",
+    "content": "## Search {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Search ![Image](/chillax-docs/assets/images/options/search-toppart.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Search Bottom ![Image](/chillax-docs/assets/images/options/search-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/search/",
     "relUrl": "/docs/theme-options/search/"
-  },"81": {
+  },"79": {
     "doc": "Secondary Nav",
     "title": "Secondary Nav",
     "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/navigation/secondary/",
     "relUrl": "/docs/navigation/secondary/"
-  },"82": {
+  },"80": {
     "doc": "sectionseparator",
     "title": "sectionseparator",
     "content": "##sectionseparator ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/sectionseparator/",
     "relUrl": "/docs/visual-composer-elements/sectionseparator/"
-  },"83": {
-    "doc": "sidebargeneral",
-    "title": "sidebargeneral",
-    "content": "##sidebargeneral If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/sidebargeneral/",
-    "relUrl": "/docs/theme-options/sidebargeneral/"
-  },"84": {
-    "doc": "sidebarwidgets",
-    "title": "sidebarwidgets",
-    "content": "##sidebarwidgets If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/sidebarwidgets/",
-    "relUrl": "/docs/theme-options/sidebarwidgets/"
-  },"85": {
-    "doc": "singlepost",
-    "title": "singlepost",
-    "content": "##singlepost If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/singlepost/",
-    "relUrl": "/docs/theme-options/singlepost/"
-  },"86": {
+  },"81": {
+    "doc": "Sidebar",
+    "title": "Sidebar",
+    "content": "## Sidebar {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Sidebar General ![Image](/chillax-docs/assets/images/options/footer-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Sidebar Title ![Image](/chillax-docs/assets/images/options/header-menu.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Sidebar Widgets ![Image](/chillax-docs/assets/images/options/title-breadcrumb.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "url": "/chillax-docs/docs/theme-options/sidebar/",
+    "relUrl": "/docs/theme-options/sidebar/"
+  },"82": {
     "doc": "Chillax Slider",
     "title": "Chillax Slider",
     "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/slider",
     "relUrl": "/docs/slider"
-  },"87": {
+  },"83": {
     "doc": "sociallink",
     "title": "sociallink",
     "content": "##sociallink ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/sociallink/",
     "relUrl": "/docs/visual-composer-elements/sociallink/"
-  },"88": {
-    "doc": "socialmedialinks",
-    "title": "socialmedialinks",
-    "content": "##socialmedialinks If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/socialmedialinks/",
-    "relUrl": "/docs/theme-options/socialmedialinks/"
-  },"89": {
-    "doc": "socialmediashare",
-    "title": "socialmediashare",
-    "content": "##socialmediashare If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/socialmediashare/",
-    "relUrl": "/docs/theme-options/socialmediashare/"
-  },"90": {
+  },"84": {
+    "doc": "Social Media",
+    "title": "Social Media",
+    "content": "## Social Media {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Social Media Links ![Image](/chillax-docs/assets/images/options/socialmesdia-link.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Social Media Share ![Image](/chillax-docs/assets/images/options/socialmesdia-share.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "url": "/chillax-docs/docs/theme-options/socialmedia/",
+    "relUrl": "/docs/theme-options/socialmedia/"
+  },"85": {
     "doc": "Static Blocks for footer",
     "title": "Static Blocks for footer",
     "content": "# Frequently Asked Questions {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ## Spell-check doesn't work; how do I enable it? The core-package `spell-check` doesn't scan documents in the `text.md` by default. You can easily add this yourself: - Open the Atom settings, and find the Packages tab - Search for the `spell-check` package; you can find it under the Core Packages - Open the settings for `spell-check` - Append `text.md` to the list of grammars (make sure the scopes are comma-separated) - Reload Atom to make sure the updated settings take effect ## Some of my Markdown elements aren't highlighted `language-markdown` parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There's a good chance that your syntax-theme doesn't support all the different elements that `language-markdown` recognizes. You can ask the author of the theme to add better support for `language-markdown`, or [add styles to your custom stylesheet](http://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks). You can also try one of the tried and tested syntax-themes featured above. If you can't get it to work, feel free to [open an issue](https://github.com/burodepeper/language-markdown/issues/new/), and I'll see what I can do. ## Which elements of Markdown are supported? Because there is no clear Markdown standard, I've chosen to follow the [CommonMark Spec](http://spec.commonmark.org/) as closely as possible within the Atom environment. On top of that, I've implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please [open an issue](https://github.com/burodepeper/language-markdown/issues/new/). #### Notes on implementation {: .no_toc } - Raw `html` is included when you have the default `language-html` grammar enabled - The Github Flavored `task-lists` are implemented as part of 'normal' `lists` - Setext-headers (underlined-headers) are not supported - `indented-code-blocks` have been disabled to prevent false-positives; use `fenced-code-blocks` instead ([more details](https://github.com/burodepeper/language-markdown/issues/88#issuecomment-183344420)) - Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives ## Autocompletion doesn't work Autocompletion doesn't work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the `autocomplete-plus` settings, make sure that Markdown files aren't blacklisted. Additionally, it might help to switch the default provider to Fuzzy. For Atom to index your Markdown documents as symbols, you have to add the following to your `config.cson`: ```coffee '.text.md': autocomplete: symbols: constant: selector: \"*\" typePriority: 1 ``` You can find additional information in [this issue](https://github.com/burodepeper/language-markdown/issues/150). ## Syntax-highlighting is broken after uninstall The core-package `language-gfm` is automatically disabled (unless you've enabled the setting that prevents this) when using `language-markdown` to avoid any conflicts. Because `language-markdown` is intended as a drop-in replacement you most likely won't need both anyway. However, if you uninstall `language-markdown`, `language-gfm` doesn't automatically get re-activated. There's no API available to do this, so you'll have to re-activate `language-gfm` manually, which is quite easy. 1. Open the \"Settings\" and go to the \"Packages\" tab 2. Search for `language-gfm` 3. Click `Enable` to re-activate it 4. You probably want to reload Atom to make sure the change takes effect ## Trailing whitespace is automatically removed, but I don't want that By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your `config.cson` for the `.md.text` scope. For more background, see [#115](https://github.com/burodepeper/language-markdown/issues/115). ```coffee '*': # all current config '.md.text': whitespace: removeTrailingWhitespace: false ``` ## Utilities CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/static-blocks/static-blocks-for-footer/",
     "relUrl": "/docs/static-blocks/static-blocks-for-footer/"
-  },"91": {
+  },"86": {
     "doc": "Static Blocks for megamenu",
     "title": "Static Blocks for megamenu",
     "content": "# Frequently Asked Questions {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ## Spell-check doesn't work; how do I enable it? The core-package `spell-check` doesn't scan documents in the `text.md` by default. You can easily add this yourself: - Open the Atom settings, and find the Packages tab - Search for the `spell-check` package; you can find it under the Core Packages - Open the settings for `spell-check` - Append `text.md` to the list of grammars (make sure the scopes are comma-separated) - Reload Atom to make sure the updated settings take effect ## Some of my Markdown elements aren't highlighted `language-markdown` parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There's a good chance that your syntax-theme doesn't support all the different elements that `language-markdown` recognizes. You can ask the author of the theme to add better support for `language-markdown`, or [add styles to your custom stylesheet](http://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks). You can also try one of the tried and tested syntax-themes featured above. If you can't get it to work, feel free to [open an issue](https://github.com/burodepeper/language-markdown/issues/new/), and I'll see what I can do. ## Which elements of Markdown are supported? Because there is no clear Markdown standard, I've chosen to follow the [CommonMark Spec](http://spec.commonmark.org/) as closely as possible within the Atom environment. On top of that, I've implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please [open an issue](https://github.com/burodepeper/language-markdown/issues/new/). #### Notes on implementation {: .no_toc } - Raw `html` is included when you have the default `language-html` grammar enabled - The Github Flavored `task-lists` are implemented as part of 'normal' `lists` - Setext-headers (underlined-headers) are not supported - `indented-code-blocks` have been disabled to prevent false-positives; use `fenced-code-blocks` instead ([more details](https://github.com/burodepeper/language-markdown/issues/88#issuecomment-183344420)) - Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives ## Autocompletion doesn't work Autocompletion doesn't work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the `autocomplete-plus` settings, make sure that Markdown files aren't blacklisted. Additionally, it might help to switch the default provider to Fuzzy. For Atom to index your Markdown documents as symbols, you have to add the following to your `config.cson`: ```coffee '.text.md': autocomplete: symbols: constant: selector: \"*\" typePriority: 1 ``` You can find additional information in [this issue](https://github.com/burodepeper/language-markdown/issues/150). ## Syntax-highlighting is broken after uninstall The core-package `language-gfm` is automatically disabled (unless you've enabled the setting that prevents this) when using `language-markdown` to avoid any conflicts. Because `language-markdown` is intended as a drop-in replacement you most likely won't need both anyway. However, if you uninstall `language-markdown`, `language-gfm` doesn't automatically get re-activated. There's no API available to do this, so you'll have to re-activate `language-gfm` manually, which is quite easy. 1. Open the \"Settings\" and go to the \"Packages\" tab 2. Search for `language-gfm` 3. Click `Enable` to re-activate it 4. You probably want to reload Atom to make sure the change takes effect ## Trailing whitespace is automatically removed, but I don't want that By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your `config.cson` for the `.md.text` scope. For more background, see [#115](https://github.com/burodepeper/language-markdown/issues/115). ```coffee '*': # all current config '.md.text': whitespace: removeTrailingWhitespace: false ``` ## Utilities CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/static-blocks/static-blocks-for-megamenu/",
     "relUrl": "/docs/static-blocks/static-blocks-for-megamenu/"
-  },"92": {
+  },"87": {
     "doc": "Static Blocks",
     "title": "Static Blocks",
     "content": "# Frequently Asked Questions {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ## Spell-check doesn't work; how do I enable it? The core-package `spell-check` doesn't scan documents in the `text.md` by default. You can easily add this yourself: - Open the Atom settings, and find the Packages tab - Search for the `spell-check` package; you can find it under the Core Packages - Open the settings for `spell-check` - Append `text.md` to the list of grammars (make sure the scopes are comma-separated) - Reload Atom to make sure the updated settings take effect ## Some of my Markdown elements aren't highlighted `language-markdown` parses your Markdown document; it does not directly color the different elements. This is done by the syntax-theme you are using. There's a good chance that your syntax-theme doesn't support all the different elements that `language-markdown` recognizes. You can ask the author of the theme to add better support for `language-markdown`, or [add styles to your custom stylesheet](http://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks). You can also try one of the tried and tested syntax-themes featured above. If you can't get it to work, feel free to [open an issue](https://github.com/burodepeper/language-markdown/issues/new/), and I'll see what I can do. ## Which elements of Markdown are supported? Because there is no clear Markdown standard, I've chosen to follow the [CommonMark Spec](http://spec.commonmark.org/) as closely as possible within the Atom environment. On top of that, I've implemented support for a few extensions: Github Flavored Markdown, Markdown Extra, CriticMark, Front Matter, and R Markdown. Together, I believe these specs cover a solid 98% of your day-to-day Markdown needs. If you feel that an element is missing, please [open an issue](https://github.com/burodepeper/language-markdown/issues/new/). #### Notes on implementation {: .no_toc } - Raw `html` is included when you have the default `language-html` grammar enabled - The Github Flavored `task-lists` are implemented as part of 'normal' `lists` - Setext-headers (underlined-headers) are not supported - `indented-code-blocks` have been disabled to prevent false-positives; use `fenced-code-blocks` instead ([more details](https://github.com/burodepeper/language-markdown/issues/88#issuecomment-183344420)) - Github tables require pipes at the start of each line, and cells need a padding of at least one space; this is a suggested convention to prevent false positives ## Autocompletion doesn't work Autocompletion doesn't work out-of-the-box with Markdown documents. It is possible to enable it, but it might need some tinkering. In the `autocomplete-plus` settings, make sure that Markdown files aren't blacklisted. Additionally, it might help to switch the default provider to Fuzzy. For Atom to index your Markdown documents as symbols, you have to add the following to your `config.cson`: ```coffee '.text.md': autocomplete: symbols: constant: selector: \"*\" typePriority: 1 ``` You can find additional information in [this issue](https://github.com/burodepeper/language-markdown/issues/150). ## Syntax-highlighting is broken after uninstall The core-package `language-gfm` is automatically disabled (unless you've enabled the setting that prevents this) when using `language-markdown` to avoid any conflicts. Because `language-markdown` is intended as a drop-in replacement you most likely won't need both anyway. However, if you uninstall `language-markdown`, `language-gfm` doesn't automatically get re-activated. There's no API available to do this, so you'll have to re-activate `language-gfm` manually, which is quite easy. 1. Open the \"Settings\" and go to the \"Packages\" tab 2. Search for `language-gfm` 3. Click `Enable` to re-activate it 4. You probably want to reload Atom to make sure the change takes effect ## Trailing whitespace is automatically removed, but I don't want that By default, Atom removes all trailing whitespace when a file is saved. You can disable it by setting the following flag in your `config.cson` for the `.md.text` scope. For more background, see [#115](https://github.com/burodepeper/language-markdown/issues/115). ```coffee '*': # all current config '.md.text': whitespace: removeTrailingWhitespace: false ``` ## Utilities CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/static-blocks",
     "relUrl": "/docs/static-blocks"
-  },"93": {
+  },"88": {
     "doc": "Sticky Header",
     "title": "Sticky Header",
     "content": "### Sticky Header ![Image](/chillax-docs/assets/images/options/sticky-header.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/header/stickyheader/",
     "relUrl": "/docs/theme-options/header/stickyheader/"
-  },"94": {
+  },"89": {
     "doc": "Tables",
     "title": "Tables",
     "content": "# Tables Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | ```markdown | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | ``` ",
     "url": "/chillax-docs/docs/header/tables/",
     "relUrl": "/docs/header/tables/"
-  },"95": {
+  },"90": {
     "doc": "taxonomycarousel",
     "title": "taxonomycarousel",
     "content": "##taxonomycarousel ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/taxonomycarousel/",
     "relUrl": "/docs/visual-composer-elements/taxonomycarousel/"
-  },"96": {
+  },"91": {
     "doc": "taxonomygrid",
     "title": "taxonomygrid",
     "content": "##taxonomygrid ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/taxonomygrid/",
     "relUrl": "/docs/visual-composer-elements/taxonomygrid/"
-  },"97": {
+  },"92": {
     "doc": "teamcarousel",
     "title": "teamcarousel",
     "content": "##teamcarousel ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/teamcarousel/",
     "relUrl": "/docs/visual-composer-elements/teamcarousel/"
-  },"98": {
+  },"93": {
     "doc": "teamdynamic",
     "title": "teamdynamic",
     "content": "##teamdynamic ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/teamdynamic/",
     "relUrl": "/docs/visual-composer-elements/teamdynamic/"
-  },"99": {
+  },"94": {
     "doc": "teammember",
     "title": "teammember",
     "content": "##teammember ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/teammember/",
     "relUrl": "/docs/visual-composer-elements/teammember/"
-  },"100": {
+  },"95": {
     "doc": "testimonialbloc",
     "title": "testimonialbloc",
     "content": "##testimonialbloc ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/testimonialbloc/",
     "relUrl": "/docs/visual-composer-elements/testimonialbloc/"
-  },"101": {
+  },"96": {
     "doc": "testimonialcarousel",
     "title": "testimonialcarousel",
     "content": "##testimonialcarousel ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/testimonialcarousel/",
     "relUrl": "/docs/visual-composer-elements/testimonialcarousel/"
-  },"102": {
+  },"97": {
     "doc": "Theme Options",
     "title": "Theme Options",
     "content": "# Theme Options {: .no_toc } ",
     "url": "/chillax-docs/theme-options",
     "relUrl": "/theme-options"
-  },"103": {
+  },"98": {
     "doc": "Title & Breadcrumb",
     "title": "Title & Breadcrumb",
     "content": "### Title & Breadcrumb ![Image](/chillax-docs/assets/images/options/title-breadcrumb.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/header/title&breadcrumb/",
     "relUrl": "/docs/theme-options/header/title&breadcrumb/"
-  },"104": {
+  },"99": {
     "doc": "Top Bar",
     "title": "Top Bar",
     "content": "## Top Bar {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Top Bar ![Image](/chillax-docs/assets/images/options/top-bar.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Topbar Styles ![Image](/chillax-docs/assets/images/options/top-bar-style.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/header/topbar/",
     "relUrl": "/docs/theme-options/header/topbar/"
-  },"105": {
+  },"100": {
     "doc": "Troubleshooting",
     "title": "Troubleshooting",
     "content": "```yaml # Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark ``` Preview dark color scheme # Dillinger [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor. - Type some Markdown on the left - See HTML in the right - Magic # New Features! - Import a HTML file and watch it magically convert to Markdown - Drag and drop images (requires your Dropbox account be linked) You can also: - Import and save files from GitHub, Dropbox, Google Drive and One Drive - Drag and drop markdown and HTML files into Dillinger - Export documents as Markdown, HTML and PDF Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email. As [John Gruber] writes on the [Markdown site][df1] > The overriding design goal for Markdown's > formatting syntax is to make it as readable > as possible. The idea is that a > Markdown-formatted document should be > publishable as-is, as plain text, without > looking like it's been marked up with tags > or formatting instructions. This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right. ### Tech Dillinger uses a number of open source projects to work properly: * [AngularJS] - HTML enhanced for web apps! * [Ace Editor] - awesome web-based text editor * [markdown-it] - Markdown parser done right. Fast and easy to extend. * [Twitter Bootstrap] - great UI boilerplate for modern web apps * [node.js] - evented I/O for the backend * [Express] - fast node.js network app framework [@tjholowaychuk] * [Gulp] - the streaming build system * [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter * [jQuery] - duh And of course Dillinger itself is open source with a [public repository][dill] on GitHub. ### Installation Dillinger requires [Node.js](https://nodejs.org/) v4+ to run. Install the dependencies and devDependencies and start the server. ```sh $ cd dillinger $ npm install -d $ node app ``` For production environments... ```sh $ npm install --production $ NODE_ENV=production node app ``` ### Plugins Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below. | Plugin | README | ------ | ------ | Dropbox | [plugins/dropbox/README.md][PlDb] | GitHub | [plugins/github/README.md][PlGh] | Google Drive | [plugins/googledrive/README.md][PlGd] | OneDrive | [plugins/onedrive/README.md][PlOd] | Medium | [plugins/medium/README.md][PlMe] | Google Analytics | [plugins/googleanalytics/README.md][PlGa] | ### Development Want to contribute? Great! Dillinger uses Gulp + Webpack for fast developing. Make a change in your file and instantaneously see your updates! Open your favorite Terminal and run these commands. First Tab: ```sh $ node app ``` Second Tab: ```sh $ gulp watch ``` (optional) Third: ```sh $ karma test ``` #### Building for source For production release: ```sh $ gulp build --prod ``` Generating pre-built zip archives for distribution: ```sh $ gulp build dist --prod ``` ### Docker Dillinger is very easy to install and deploy in a Docker container. By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image. ```sh cd dillinger docker build -t joemccann/dillinger:${package.json.version} . ``` This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger. Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile): ```sh docker run -d -p 8000:8080 --restart=\"always\" /dillinger:${package.json.version} ``` Verify the deployment by navigating to your server address in your preferred browser. ```sh 127.0.0.1:8000 ``` #### Kubernetes + Google Cloud See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md) ### Todos - Write MORE Tests - Add Night Mode License ---- MIT **Free Software, Hell Yeah!** ### (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax) [dill]: [git-repo-url]: [john gruber]: [df1]: [markdown-it]: [Ace Editor]: [node.js]: [Twitter Bootstrap]: [jQuery]: [@tjholowaychuk]: [express]: [AngularJS]: [Gulp]: [PlDb]: [PlGh]: [PlGd]: [PlOd]: [PlMe]: [PlGa]: ## Shadman **Free Software, Hell Yeah!** ",
     "url": "/chillax-docs/troubleshooting/",
     "relUrl": "/troubleshooting/"
+  },"101": {
+    "doc": "Typography",
+    "title": "Typography",
+    "content": "## Typography {: .no_toc } ![Image](/chillax-docs/assets/images/options/typography.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "url": "/chillax-docs/docs/theme-options/typography/",
+    "relUrl": "/docs/theme-options/typography/"
+  },"102": {
+    "doc": "Typography",
+    "title": "Heading 1",
+    "content": " ",
+    "url": "/chillax-docs/docs/header/typography/",
+    "relUrl": "/docs/header/typography/"
+  },"103": {
+    "doc": "Typography",
+    "title": "Heading 2",
+    "content": " ",
+    "url": "/chillax-docs/docs/header/typography/",
+    "relUrl": "/docs/header/typography/"
+  },"104": {
+    "doc": "Typography",
+    "title": "Heading 3",
+    "content": "Heading 4 . Heading 5 . Heading 6 . ```markdown # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 ``` --- ## Body text Default body text is rendered like this: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ```markdown Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ``` --- ## Inline elements Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ```markdown Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ``` --- ## Typographic Utilities There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. [View typography utilities]({{ site.baseurl }}{% link docs/utilities/utilities.md %}#typography){: .btn .btn-outline } ",
+    "url": "/chillax-docs/docs/header/typography/",
+    "relUrl": "/docs/header/typography/"
+  },"105": {
+    "doc": "Typography",
+    "title": "Typography",
+    "content": "# Typography {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Font stack By default, Just the Docs uses a native system font stack for sans-serif fonts: ```scss -apple-system, BlinkMacSystemFont, \"helvetica neue\", helvetica, roboto, noto, \"segoe ui\", arial, sans-serif ``` ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz {: .fs-5 .ls-10 .code-example } For monospace type, like code snippets or the `` element, Just the Docs uses a native system font stack for monospace fonts: ```scss \"SFMono-Regular\", Menlo, Consolas, Monospace ``` ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz {: .fs-5 .ls-10 .text-mono .code-example } --- ## Responsive type scale Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size `font-size` | Large screen size `font-size` |:----------------------|:---------------------------------|:------------------------------| `h1`, `.text-alpha` | 32px | 36px | `h2`, `.text-beta` | 18px | 24px | `h3`, `.text-gamma` | 16px | 18px | `h4`, `.text-delta` | 14px | 16px | `h5`, `.text-epsilon` | 16px | 18px | `h6`, `.text-zeta` | 18px | 24px | `body` | 14px | 16px | --- ## Headings Headings are rendered like this: ",
+    "url": "/chillax-docs/docs/header/typography/",
+    "relUrl": "/docs/header/typography/"
   },"106": {
     "doc": "Typography",
     "title": "Typography",
@@ -641,90 +641,48 @@
     "url": "/chillax-docs/docs/utilities/typography/",
     "relUrl": "/docs/utilities/typography/"
   },"107": {
-    "doc": "typography",
-    "title": "typography",
-    "content": "##typography If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/typography/",
-    "relUrl": "/docs/theme-options/typography/"
-  },"108": {
-    "doc": "Typography",
-    "title": "Heading 1",
-    "content": " ",
-    "url": "/chillax-docs/docs/header/typography/",
-    "relUrl": "/docs/header/typography/"
-  },"109": {
-    "doc": "Typography",
-    "title": "Heading 2",
-    "content": " ",
-    "url": "/chillax-docs/docs/header/typography/",
-    "relUrl": "/docs/header/typography/"
-  },"110": {
-    "doc": "Typography",
-    "title": "Heading 3",
-    "content": "Heading 4 . Heading 5 . Heading 6 . ```markdown # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 ``` --- ## Body text Default body text is rendered like this: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ```markdown Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ``` --- ## Inline elements Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ```markdown Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ``` --- ## Typographic Utilities There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. [View typography utilities]({{ site.baseurl }}{% link docs/utilities/utilities.md %}#typography){: .btn .btn-outline } ",
-    "url": "/chillax-docs/docs/header/typography/",
-    "relUrl": "/docs/header/typography/"
-  },"111": {
-    "doc": "Typography",
-    "title": "Typography",
-    "content": "# Typography {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Font stack By default, Just the Docs uses a native system font stack for sans-serif fonts: ```scss -apple-system, BlinkMacSystemFont, \"helvetica neue\", helvetica, roboto, noto, \"segoe ui\", arial, sans-serif ``` ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz {: .fs-5 .ls-10 .code-example } For monospace type, like code snippets or the `` element, Just the Docs uses a native system font stack for monospace fonts: ```scss \"SFMono-Regular\", Menlo, Consolas, Monospace ``` ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz {: .fs-5 .ls-10 .text-mono .code-example } --- ## Responsive type scale Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size `font-size` | Large screen size `font-size` |:----------------------|:---------------------------------|:------------------------------| `h1`, `.text-alpha` | 32px | 36px | `h2`, `.text-beta` | 18px | 24px | `h3`, `.text-gamma` | 16px | 18px | `h4`, `.text-delta` | 14px | 16px | `h5`, `.text-epsilon` | 16px | 18px | `h6`, `.text-zeta` | 18px | 24px | `body` | 14px | 16px | --- ## Headings Headings are rendered like this: ",
-    "url": "/chillax-docs/docs/header/typography/",
-    "relUrl": "/docs/header/typography/"
-  },"112": {
     "doc": "Utilities",
     "title": "Utilities",
     "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } ",
     "url": "/chillax-docs/docs/utilities",
     "relUrl": "/docs/utilities"
-  },"113": {
+  },"108": {
     "doc": "videopopup",
     "title": "videopopup",
     "content": "##videopopup ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
     "url": "/chillax-docs/docs/visual-composer-elements/videopopup/",
     "relUrl": "/docs/visual-composer-elements/videopopup/"
-  },"114": {
+  },"109": {
     "doc": "Visual Composer Elements",
     "title": "Visual Composer Elements",
     "content": "# Visual Composer Elements {: .no_toc } ",
     "url": "/chillax-docs/docs/visual-composer-elements",
     "relUrl": "/docs/visual-composer-elements"
-  },"115": {
+  },"110": {
     "doc": "Widgets Nav",
     "title": "Widgets Nav",
     "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/widgets/widgets-bottom/",
     "relUrl": "/docs/widgets/widgets-bottom/"
-  },"116": {
+  },"111": {
     "doc": "Widgets Nav",
     "title": "Widgets Nav",
     "content": "# Lists {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- Most lists can be rendered with pure Markdown. ## Unordered list - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ```markdown - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 ``` ## Ordered list 1. Item 1 1. Item 2 1. Item 3 ```markdown 1. Item 1 1. Item 2 1. Item 3 ``` ## Task list - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ```markdown - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done ``` ## Definition list Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green ```html Name Godzilla Born 1952 Birthplace Japan Color Green ``` ",
     "url": "/chillax-docs/docs/widgets/widgets-top/",
     "relUrl": "/docs/widgets/widgets-top/"
-  },"117": {
+  },"112": {
     "doc": "Widgets",
     "title": "Widgets",
     "content": "# Utilities {: .no_toc } CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. {: .fs-6 .fw-300 } If you want to embed images, this is how you do it: ![Image of Yaktocat](https://olania-jekyll.netlify.app/images/37.jpg) [![IMAGE ALT TEXT](http://img.youtube.com/vi/iGWQxXVxttQ/0.jpg)](https://www.youtube.com/watch?v=iGWQxXVxttQ \"Video Title\") ",
     "url": "/chillax-docs/docs/widgets",
     "relUrl": "/docs/widgets"
-  },"118": {
-    "doc": "woocommerce",
-    "title": "woocommerce",
-    "content": "##woocommerce If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
+  },"113": {
+    "doc": "Woocommerce",
+    "title": "Woocommerce",
+    "content": "## Woocommerce Shop {: .no_toc } {: .no_toc .text-delta } 1. TOC {:toc} --- ### Shop General ![Image](/chillax-docs/assets/images/options/footer-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Shop Product Card Structure ![Image](/chillax-docs/assets/images/options/footer-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Shop, Categories & tags Page Top Text area ![Image](/chillax-docs/assets/images/options/footer-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Single Product Page ![Image](/chillax-docs/assets/images/options/footer-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ### Related Products ![Image](/chillax-docs/assets/images/options/footer-bottom.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/woocommerce/",
     "relUrl": "/docs/theme-options/woocommerce/"
-  },"119": {
-    "doc": "woocommerceshopgeneral",
-    "title": "woocommerceshopgeneral",
-    "content": "##woocommerceshopgeneral If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/woocommerceshopgeneral/",
-    "relUrl": "/docs/theme-options/woocommerceshopgeneral/"
-  },"120": {
-    "doc": "woocommercesingleproductpage",
-    "title": "woocommercesingleproductpage",
-    "content": "##woocommercesingleproductpage If you want to embed images, this is how you do it: ![Image](/chillax-docs/assets/images/layout2.jpg) ",
-    "url": "/chillax-docs/docs/theme-options/woocommercesingleproductpage/",
-    "relUrl": "/docs/theme-options/woocommercesingleproductpage/"
-  },"121": {
+  },"114": {
     "doc": "youtubevideo",
     "title": "youtubevideo",
     "content": "##youtubevideo ![Image](https://olania-jekyll.netlify.app/images/37.jpg) ",
