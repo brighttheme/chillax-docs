@@ -234,7 +234,7 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 
 .main-content a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-.main-content ul, .main-content ol { padding-left: 1.5em; }
+.main-content ul, .main-content ol { padding-left: 2em; }
 
 .main-content li .highlight { margin-top: 0.25rem; }
 
@@ -242,7 +242,7 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 
 .main-content ol > li { position: relative; }
 
-.main-content ol > li::before { position: absolute; top: 0.2em; left: -1em; color: #959396; content: counter(step-counter); counter-increment: step-counter; font-size: 16px !important; }
+.main-content ol > li::before { position: absolute; top: 0.2em; left: -1.5em; color: #959396; content: counter(step-counter); counter-increment: step-counter; font-size: 16px !important; }
 
 @media (min-width: 31.25rem) { .main-content ol > li::before { font-size: 18px !important; } }
 
