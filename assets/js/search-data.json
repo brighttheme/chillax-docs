@@ -13,7 +13,7 @@
   },"2": {
     "doc": "Advanced",
     "title": "Advanced",
-    "content": "### Advanced ![Image](/chillax-docs/assets/images/options/advanced.jpg) 1. Import Options - This will overwrite all existing option values, please proceed with caution! 2. Export Options - Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site). {: .clx-label } ",
+    "content": "### Advanced ![Image](/chillax-docs/assets/images/options/advanced.jpg) 1. Mega Menu. - Enable/Disable Mega Menu. 2. Open Graph Meta Tags - Enable/Disable Open Graph Meta Tags. 3. Enable Content delivery network(CDN) - CDN will make your site faster loaded to public/visitors. {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/advanced/",
     "relUrl": "/docs/theme-options/advanced/"
   },"3": {
@@ -187,7 +187,7 @@
   },"31": {
     "doc": "Import Export",
     "title": "Import Export",
-    "content": "## Import Export {: .no_toc } ### Import Export Options ![Image](/chillax-docs/assets/images/options/import-export.jpg) 1. Site Width - Controls the overall site width. In px or %, ex: 100% or 1170px. 2. Theme Layout - Chillax has four different layouts, Full-Width, Boxed, Framed and Bordered. 3. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. 4. Loader Icon - Chillax has two stunning animated loading icons, animated circle, and animated spinner. {: .clx-label } ",
+    "content": "## Import Export {: .no_toc } ### Import Export Options ![Image](/chillax-docs/assets/images/options/import-export.jpg) 1. Import Options - This will overwrite all existing option values, please proceed with caution! 2. Export Options - Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site). {: .clx-label } ",
     "url": "/chillax-docs/docs/theme-options/import-export/",
     "relUrl": "/docs/theme-options/import-export/"
   },"32": {
