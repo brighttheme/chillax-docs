@@ -259,7 +259,7 @@
   },"43": {
     "doc": "Navigation",
     "title": "Navigation",
-    "content": "# Navigation {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Menu General ## Mega menu ",
+    "content": "# Navigation {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} --- ## Chillax Menu Options ![Image](/chillax-docs/assets/images/menu-options.jpg) 1. **Menu Style** - There are three type of menu style. (A). Default - which is simple dropdown menu. (B). Full width Mega Menu - width will be same as container width. (C). Custom width mega menu - where you can cusomize the menu width. 2. **Mega Menu Number of Columns** - Number of mega menu columns. Either you cna select auto or 1 to 6 columns. 3. **Dropdown Width (px)** - For custom width mega menu dropdown width. 4. **Dropdown Height (px)** - For custom width mega menu dropdown height. 5. **Mega Menu Widget Area** - You can selct the wordpress default widget for the dropdown menu. 6. **Dropdown Text Color** - Select dropdown text color. 7. **Button Style** - Select menu button style either primary or secondary. 8. **Dropdown Background Image** - You can upload the dropdown menu background image. {: .clx-label } ",
     "url": "/chillax-docs/docs/navigation",
     "relUrl": "/docs/navigation"
   },"44": {
