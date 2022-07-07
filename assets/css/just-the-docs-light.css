@@ -232,7 +232,9 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 
 .main-content ol, .main-content ul, .main-content dl, .main-content pre, .main-content address, .main-content blockquote, .main-content .table-wrapper { margin-top: 0.5em; }
 
-.main-content a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.main-content a { overflow: hidden; text-overflow: ellipsis; white-space: break-all; }
+
+.main-content iframe { max-width: 100% !important; }
 
 .main-content ul, .main-content ol { padding-left: 2em; }
 
