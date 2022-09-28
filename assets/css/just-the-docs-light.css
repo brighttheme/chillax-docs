@@ -250,9 +250,9 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 
 @media (min-width: 31.25rem) { .main-content ol > li::before { top: 0.11em; } }
 
-.main-content ol > li ol { counter-reset: sub-counter; }
+.main-content ol > li ol { /* counter-reset: sub-counter; */ list-style-type: none; }
 
-.main-content ol > li ol li::before { content: counter(sub-counter, lower-alpha); counter-increment: sub-counter; }
+.main-content ol > li ol li { /* &::before { content: counter(sub-counter, lower-alpha); counter-increment: sub-counter; } */ }
 
 .main-content ul { list-style: none; }
 
@@ -297,6 +297,14 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 .main-content h1 + table, .main-content h1 + .table-wrapper, .main-content h1 + .code-example, .main-content h1 + .highlighter-rouge, .main-content h2 + table, .main-content h2 + .table-wrapper, .main-content h2 + .code-example, .main-content h2 + .highlighter-rouge, .main-content h3 + table, .main-content h3 + .table-wrapper, .main-content h3 + .code-example, .main-content h3 + .highlighter-rouge, .main-content h4 + table, .main-content h4 + .table-wrapper, .main-content h4 + .code-example, .main-content h4 + .highlighter-rouge, .main-content h5 + table, .main-content h5 + .table-wrapper, .main-content h5 + .code-example, .main-content h5 + .highlighter-rouge, .main-content h6 + table, .main-content h6 + .table-wrapper, .main-content h6 + .code-example, .main-content h6 + .highlighter-rouge { margin-top: 1em; }
 
 .main-content h1 + p, .main-content h2 + p, .main-content h3 + p, .main-content h4 + p, .main-content h5 + p, .main-content h6 + p { margin-top: 0; }
+
+ul.home-nav-list { display: flex; flex-wrap: wrap; list-style-position: inside; list-style-type: disc; padding: 0px; }
+
+ul.home-nav-list ul { display: none; }
+
+ul.home-nav-list li.nav-list-item { width: 33.33%; list-style-position: inside; list-style-type: disc; padding: 3px 12px; }
+
+ul.home-nav-list li.nav-list-item:hover { background: #ebedf5; }
 
 .nav-list { padding: 0; margin-top: 0; margin-bottom: 0; list-style: none; }
 
